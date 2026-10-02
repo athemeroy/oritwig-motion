@@ -13,7 +13,7 @@ The source is self-contained and includes the native engine, app/adapters, pinne
 - Debug APK, unsigned release APK, release engine AAR and Android instrumentation APK build with the documented pinned toolchain
 - Ten JVM range/export-limit tests execute with zero failures, errors or skips; debug and release lint have no errors
 - Offline source verifier reconstructs all 115 exact original upstream files: 60 unchanged, 55 leading-notice edits, and two separately recorded unused-include removals. It checks preserved algorithm bodies and copyright lines
-- Actual APK packaging has all 16 per-component notice/support files plus the top-level notice and GPL license; zero declared permissions; and nine native libraries across arm64-v8a, x86 and x86_64
+- Actual APK packaging has 14 component notice/support files plus top-level NOTICE and LICENSE, 16 total entries; zero declared permissions; and nine native libraries across arm64-v8a, x86 and x86_64
 - Every JNI library depends on a distinct `librlottie.so`. All packaged 64-bit native ELF load segments are 16 KiB aligned and the APK passes 16 KiB ZIP alignment. The NDK's 32-bit x86 C++ runtime uses 4 KiB ELF alignment
 
 ## Device acceptance

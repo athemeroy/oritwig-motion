@@ -27,7 +27,9 @@ jobs:
         run: |
           ./tools/verify-wrapper.sh
           python3 provenance/verify-distribution.py
-          sdkmanager --install "platforms;android-35" "build-tools;35.0.0" "ndk;27.2.12479018" "cmake;3.22.1"
+          sdkmanager="$ANDROID_HOME/cmdline-tools/latest/bin/sdkmanager"
+          test -x "$sdkmanager"
+          "$sdkmanager" --sdk_root="$ANDROID_HOME" --install "platforms;android-35" "build-tools;35.0.0" "ndk;27.2.12479018" "cmake;3.22.1"
       - name: Independently build, lint and run JVM tests
         run: ./gradlew --dependency-verification=strict --no-daemon :app:assembleDebug :app:assembleRelease :engine:assembleRelease :app:assembleDebugAndroidTest :app:lintDebug :app:lintRelease :engine:testDebugUnitTest
       - name: Require ten executed JVM tests

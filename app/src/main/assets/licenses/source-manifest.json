@@ -1,0 +1,103 @@
+{
+  "files": [
+    {
+      "path": "provenance/licenses/APACHE-2.0.txt",
+      "bytes": 11359,
+      "sha256": "8c6db340475136df3c1201d458fa5755698eace76e510471ecc9d857d6083dac",
+      "source_url": "https://github.com/chromium/chromium/blob/59afd8336009c9d97c22854c52e0382b62b3aa5e/third_party/abseil-cpp/LICENSE",
+      "source_git_blob": "6b0b1270ff0ca8f03867efcd09ba6ddb6392b1e1",
+      "form": "Unchanged upstream license text"
+    },
+    {
+      "path": "provenance/licenses/COPYING.FTL",
+      "bytes": 6718,
+      "sha256": "e60d07dfb2c5264f9f405fa52bf0d4f85429dd9ae1bc2ffcff8af1924ef720d1",
+      "source_url": "https://raw.githubusercontent.com/DrKLO/Telegram/00a9454aeaa5970884e13abc4ec6c42a125742d0/TMessagesProj/jni/rlottie/licenses/COPYING.FTL",
+      "source_git_blob": "5f673ffad132a2c1ccdd306e7d181561ed82ce44",
+      "form": "Unchanged upstream license text"
+    },
+    {
+      "path": "provenance/licenses/COPYING.LGPL",
+      "bytes": 26436,
+      "sha256": "5df07007198989c622f5d41de8d703e7bef3d0e79d62e24332ee739a452af62a",
+      "source_url": "https://raw.githubusercontent.com/DrKLO/Telegram/00a9454aeaa5970884e13abc4ec6c42a125742d0/TMessagesProj/jni/rlottie/licenses/COPYING.LGPL",
+      "source_git_blob": "5ab7695ab8cabe0c5c8a814bb0ab1e8066578fbb",
+      "form": "Unchanged upstream license text"
+    },
+    {
+      "path": "provenance/licenses/COPYING.PIX",
+      "bytes": 2086,
+      "sha256": "c18a4f313d1642d1d58a5684c0a9eb043029b5a72187cefd058b13068467496b",
+      "source_url": "https://raw.githubusercontent.com/DrKLO/Telegram/00a9454aeaa5970884e13abc4ec6c42a125742d0/TMessagesProj/jni/rlottie/licenses/COPYING.PIX",
+      "source_git_blob": "5826f3c735c5239a961b02bea29e39ea492d5377",
+      "form": "Unchanged upstream license text"
+    },
+    {
+      "path": "provenance/licenses/COPYING.RPD",
+      "bytes": 5152,
+      "sha256": "a140e5d46fe734a1c78f1a3c3ef207871dd75648be71fdda8e309b23ab8b1f32",
+      "source_url": "https://raw.githubusercontent.com/DrKLO/Telegram/00a9454aeaa5970884e13abc4ec6c42a125742d0/TMessagesProj/jni/rlottie/licenses/COPYING.RPD",
+      "source_git_blob": "7ccc161c84b243687498a0dae5043c1da6173ac4",
+      "form": "Unchanged upstream license text"
+    },
+    {
+      "path": "provenance/licenses/COPYING.STB",
+      "bytes": 1073,
+      "sha256": "f4af1b4500330b85966a7919d3fcc10289fb8b4f49de65c59c40f3d832eaabaf",
+      "source_url": "https://raw.githubusercontent.com/DrKLO/Telegram/00a9454aeaa5970884e13abc4ec6c42a125742d0/TMessagesProj/jni/rlottie/licenses/COPYING.STB",
+      "source_git_blob": "1da71ca8db830095ebc493fea7c08a4fb386ef79",
+      "form": "Unchanged upstream license text"
+    },
+    {
+      "path": "provenance/licenses/GPL-3.0.txt",
+      "bytes": 35147,
+      "sha256": "8ceb4b9ee5adedde47b31e975c1d90c73ad27b6b165a1dcd80c7c545eb65b903",
+      "source_url": "https://github.com/gcc-mirror/gcc/blob/master/COPYING3",
+      "source_git_blob": "94a9ed024d3859793618152ea559a168bbcbb5e2",
+      "form": "Unchanged upstream license text"
+    },
+    {
+      "path": "provenance/licenses/MOZILLA-SMIL-NOTICE.txt",
+      "bytes": 1845,
+      "sha256": "26118f3465f5fc4310466cfc8a390462b739458ad0320891136477e157074630",
+      "source": "Exact leading comment notices extracted from pinned Telegram source; contextual heading added",
+      "form": "Historical source notice excerpt; current selection documented in NOTICE.txt"
+    },
+    {
+      "path": "provenance/licenses/NDK-27.2-NOTICE.toolchain.txt",
+      "bytes": 806124,
+      "sha256": "cbe3237be53c0a819f8df6aac5358fdee848eee3b6571b4e2ca20767ebd7465e",
+      "source": "Official installed Android NDK 27.2.12479018 (NOTICE.toolchain)",
+      "form": "Unchanged installed notice collection"
+    },
+    {
+      "path": "provenance/licenses/NDK-27.2-NOTICE.txt",
+      "bytes": 522923,
+      "sha256": "4d5224d1c0b54ffa88b0dc0088191638fdbb7227835095dfb98f7f66b416a323",
+      "source": "Official installed Android NDK 27.2.12479018 (NOTICE)",
+      "form": "Unchanged installed notice collection"
+    },
+    {
+      "path": "provenance/licenses/PIXMAN-FILE-NOTICES.txt",
+      "bytes": 3566,
+      "sha256": "1db6b075344d3c7a3bef8b8d61238fec49efd7a5fcdab4b0afb3e5705b8ab900",
+      "source": "Exact leading comment notices extracted from pinned Telegram source; contextual heading added",
+      "form": "Historical source notice excerpt; current selection documented in NOTICE.txt"
+    },
+    {
+      "path": "provenance/licenses/QT-FILE-NOTICE.txt",
+      "bytes": 2417,
+      "sha256": "9e4d74037f8464cb52a72ff8c93c1348aaa99d44e531195b32e3b5e1a2f8e49a",
+      "source": "Exact leading comment notices extracted from pinned Telegram source; contextual heading added",
+      "form": "Historical source notice excerpt; current selection documented in NOTICE.txt"
+    },
+    {
+      "path": "provenance/licenses/QT-LGPL-EXCEPTION-1.1.txt",
+      "bytes": 1187,
+      "sha256": "2cdc5dcbe04d20481b35d85ce5dae27e49cfae0a43fdc66005f88446cfeedb16",
+      "source_url": "https://github.com/qt/qt/blob/v4.7.4/LGPL_EXCEPTION.txt",
+      "source_git_blob": "8f73eca773871f6cde0b2f487e1cba05d203f6ad",
+      "form": "Unchanged upstream license text"
+    }
+  ]
+}

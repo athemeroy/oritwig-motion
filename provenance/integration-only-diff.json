@@ -1,0 +1,21 @@
+{
+  "upstream_pin": "00a9454aeaa5970884e13abc4ec6c42a125742d0",
+  "files": [
+    {
+      "path": "vendor/rlottie/src/lottie/lottieparser.cpp",
+      "reason": "Remove one unused Telegram logging-header dependency; no referenced logging symbol or stub",
+      "removed_line": "#include <tgnet/FileLog.h>",
+      "original_git_blob": "5d17aa8cb7c41b734316896d1e12c69633326e80",
+      "after_integration_sha256": "eda1aa740126790275d0f5ea2d9c7addc0c6146ee58622c75b58dd1737f09c92",
+      "noncomment_change": "Exactly this include line removed; all other bytes unchanged"
+    },
+    {
+      "path": "vendor/rlottie/src/vector/vraster.cpp",
+      "reason": "Remove one unused Telegram logging-header dependency; no referenced logging symbol or stub",
+      "removed_line": "#include <tgnet/FileLog.h>",
+      "original_git_blob": "3e78779666c5c1dff13a6d7200bb5f08bdb255bb",
+      "after_integration_sha256": "c73d2970912eb20b23b1adca9d01441660bb6a065dee429f2d856599fb31873c",
+      "noncomment_change": "Exactly this include line removed; all other bytes unchanged"
+    }
+  ]
+}

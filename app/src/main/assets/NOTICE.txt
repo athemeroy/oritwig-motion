@@ -1,0 +1,158 @@
+ORITWIG MOTION — SOURCE AND THIRD-PARTY NOTICES
+
+Distribution license selection: GNU GPL version 3 for this combined work.
+The original Oritwig application, JNI adapter and build/reproduction tools may
+be used under GPL-3.0-or-later where their own notices state that option. This
+does not relicense third-party files indiscriminately or promise that every
+component permits every later GPL version. See LICENSE for the GPLv3 text.
+
+HISTORICAL RENDERER PROVENANCE
+
+The renderer is Samsung rlottie as historically vendored in Telegram Android,
+not current tlottie and not the Telegram messaging/account/network stack.
+Repository: https://github.com/DrKLO/Telegram
+Commit: 00a9454aeaa5970884e13abc4ec6c42a125742d0
+Path: TMessagesProj/jni/rlottie
+Original source URLs and all 115 original Git blob/SHA-256 values are recorded
+in provenance/upstream-files.json. Final distribution hashes and exact edit
+categories are in provenance/distribution-files.json.
+
+The upstream algorithm bodies are retained. The distribution changes consist
+of (1) the GNU license-reference selections described below, (2) added source
+attribution comments, and (3) exactly two unused tgnet/FileLog.h includes
+removed from lottieparser.cpp and vraster.cpp. No fake logging/account stubs
+are substituted. These two integration changes are separately recorded in
+provenance/integration-only-diff.json. The license-only patch and reproducible
+offline transformation are in provenance/license-only.patch and
+provenance/apply-distribution-notices.py. All changes are dated 2026-10-01.
+
+1. SAMSUNG RLOTTIE AND GNU LICENSE SELECTION
+
+Copyright (c) 2018 Samsung Electronics Co., Ltd. All rights reserved.
+The original Samsung portions permit LGPL version 2.1 or any later version.
+This distribution exercises LGPL-2.1 section 3 to apply GPLv3, with the
+applicable leading source notices changed accordingly. Copyright notices and
+warranty disclaimers are retained. The original LGPL text is supplied as
+provenance/licenses/COPYING.LGPL; the elected GPLv3 text is LICENSE and
+provenance/licenses/GPL-3.0.txt. Original upstream LGPL grants remain historical
+provenance, not a claim that this combined distribution is LGPL-only.
+
+2. NOKIA QT-DERIVED DRAWING CODE
+
+src/vector/vdrawhelper.cpp includes:
+Copyright (C) 2009 Nokia Corporation and/or its subsidiary(-ies).
+All rights reserved. Contact: Nokia Corporation (qt-info@nokia.com).
+
+Its original Qt notice offers an LGPL version 2.1 alternative to a separate
+technology-preview license. This distribution elects the GNU alternative and
+converts its GNU references specifically to GPLv3 under LGPL-2.1 section 3.
+The separate preview/no-commercial-use branch is not elected. The historical
+Nokia Qt LGPL Exception 1.1 name is retained for provenance; this distribution
+does not rely on that exception or invent a GPL exception. The original file
+notice and official exception text are supplied in:
+  provenance/licenses/QT-FILE-NOTICE.txt
+  provenance/licenses/QT-LGPL-EXCEPTION-1.1.txt
+Exception source: https://github.com/qt/qt/blob/v4.7.4/LGPL_EXCEPTION.txt
+Git blob: 8f73eca773871f6cde0b2f487e1cba05d203f6ad
+
+3. MOZILLA SMIL INTERPOLATOR
+
+src/vector/vinterpolator.cpp derives from the Mozilla SMIL module.
+Initial developer/contributor: Brian Birtles <birtles@gmail.com>.
+Portions Copyright (C) 2005 Brian Birtles. All Rights Reserved.
+Its original MPL-1.1 / GPL-2.0-or-later / LGPL-2.1-or-later notice is retained.
+This distribution selects GPLv3 under its existing GPL-2.0-or-later option.
+See provenance/licenses/MOZILLA-SMIL-NOTICE.txt for the original full notice.
+
+4. FREETYPE COMPONENTS
+
+This software is based in part on the work of the FreeType Team.
+The historical FreeType-derived math, raster and stroker files retain their
+David Turner, Robert Wilhelm and Werner Lemberg copyright notices, including
+the individual year ranges in the source files. The FreeType Project LICENSE
+is included unchanged in provenance/licenses/COPYING.FTL and
+vendor/rlottie/licenses/COPYING.FTL. Source adaptations already present in
+the pinned Telegram tree are retained; this distribution adds only the Abseil
+attribution described below to v_ft_math.cpp and changes no FreeType algorithm.
+The FreeType names are not used to imply endorsement.
+
+5. ABSEIL FRAGMENT IN FREETYPE MATH
+
+Copyright 2018 The Abseil Authors.
+The fallback bit-count fragment in src/vector/freetype/v_ft_math.cpp is a
+historical adaptation of CountTrailingZerosNonZero32Slow in:
+https://github.com/chromium/chromium/blob/59afd8336009c9d97c22854c52e0382b62b3aa5e/third_party/abseil-cpp/absl/base/internal/bits.h
+Git blob: bc7faaee3b257edc37cd9090b7777d7035d3c3b8
+This material is licensed under Apache License 2.0, supplied unchanged as
+provenance/licenses/APACHE-2.0.txt. Its source license file is:
+https://github.com/chromium/chromium/blob/59afd8336009c9d97c22854c52e0382b62b3aa5e/third_party/abseil-cpp/LICENSE
+Git blob: 6b0b1270ff0ca8f03867efcd09ba6ddb6392b1e1
+The historical fragment includes local adaptations; the original source URL
+was already present in Telegram's file. Attribution was restored here on
+2026-10-01 without changing executable statements. Android Clang uses the
+__GNUC__ branch instead, but the Apache notice is retained because the source
+distribution includes the fallback. No claim is made that inactive source
+loses its license obligations.
+
+6. PIXMAN / X11-DERIVED COMPONENTS
+
+The aggregate MIT notice, copyright list, permission and disclaimer are in
+provenance/licenses/COPYING.PIX. Individual files may include additional
+notices. In particular, vregion.cpp's full Open Group, Digital Equipment
+Corporation and Keith Packard permission/disclaimer/non-endorsement notices
+are included unchanged in provenance/licenses/PIXMAN-FILE-NOTICES.txt and
+retained in the source. The ARM NEON assembly and headers retain Nokia's 2009
+MIT notices. The standalone build currently uses the scalar path, including
+on arm64; the assembly sources are retained in the source archive.
+
+7. RAPIDJSON / MSINTTYPES
+
+Copyright (C) 2015 THL A29 Limited, a Tencent company, and Milo Yip.
+All rights reserved. RapidJSON portions used here are MIT-licensed.
+The source archive also contains msinttypes r29 headers, Copyright (c)
+2006-2013 Alexander Chemeris, under their BSD-3-Clause terms.
+Both complete sets of terms are retained in provenance/licenses/COPYING.RPD.
+That upstream notice also describes a JSON-licensed jsonchecker directory.
+The verified 115-file source scope contains no jsonchecker files or code
+bearing the 'Good, not Evil' restriction; the mention in the unchanged license
+bundle is not a claim that those excluded files are shipped or used.
+
+8. STB
+
+Copyright (c) 2017 Sean Barrett.
+The source tree includes stb_image.h v2.19 and its MIT/public-domain options.
+This distribution retains the MIT option and full license notice in
+provenance/licenses/COPYING.STB. The pinned Telegram stb_image.cpp is already
+a no-image-loader stub, so the image decoder is not enabled by that unit.
+That is upstream behavior; no replacement decoder or stub is added here.
+
+9. ANDROID NDK / C++ RUNTIME
+
+The Android package uses NDK 27.2.12479018 and the c++_shared runtime. The NDK
+and runtime include Apache-2.0 with LLVM exceptions and other component terms.
+The exact installed NDK notice collections are supplied without alteration:
+  provenance/licenses/NDK-27.2-NOTICE.txt
+  provenance/licenses/NDK-27.2-NOTICE.toolchain.txt
+These retain the LLVM exceptions and bundled third-party notices. They must
+accompany distributions containing libc++_shared.so; the rlottie notices alone
+do not cover that runtime. Build tools themselves are not claimed as Oritwig
+code. Android framework/system libraries are separate platform components.
+
+SOURCE, REBUILDING AND USER MODIFICATION
+
+Distribute the exact matching complete source and build scripts with each
+binary release, or provide equivalent source access next to its download.
+The source package includes the elected-license native files, JNI and Java
+sources, resources, manifests, Gradle/CMake definitions and wrapper, pinned
+tool/dependency versions, source/provenance ledgers and license texts.
+Provide clear build, replacement-library, APK packaging and user-signing
+instructions. A public link to unmodified Telegram alone is insufficient.
+Do not include private signing keys in source or require them to run a user
+build. Users can sign their own builds; changing certificates can require a
+separate application ID or removal of a previously installed official build.
+Document preserving user data before removal. No EULA term may override the
+selected GNU license rights or prohibit reverse engineering to debug changes.
+
+This notice documents source facts and the selected licensing route. It is
+not a warranty, legal opinion, trademark permission, or blanket clearance for
+other Telegram components, animation assets, future dependencies or releases.

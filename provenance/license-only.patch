@@ -1,0 +1,1714 @@
+--- a/vendor/rlottie/src/lottie/lottieanimation.cpp
++++ b/vendor/rlottie/src/lottie/lottieanimation.cpp
+@@ -2,19 +2,25 @@
+  * Copyright (c) 2018 Samsung Electronics Co., Ltd. All rights reserved.
+  *
+  * This library is free software; you can redistribute it and/or
+- * modify it under the terms of the GNU Lesser General Public
++ * modify it under the terms of the GNU General Public
+  * License as published by the Free Software Foundation; either
+- * version 2.1 of the License, or (at your option) any later version.
++ * version 3 of the License, or (at your option) any later version.
+  *
+  * This library is distributed in the hope that it will be useful,
+  * but WITHOUT ANY WARRANTY; without even the implied warranty of
+  * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+- * Lesser General Public License for more details.
++ * General Public License for more details.
+  *
+- * You should have received a copy of the GNU Lesser General Public
++ * You should have received a copy of the GNU General Public
+  * License along with this library; if not, write to the Free Software
+  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301 USA
+  */
++/* Oritwig distribution notice, 2026-10-01.
++ * GNU license references above were converted to GPLv3 under
++ * LGPL-2.1 section 3. Copyrights and algorithm bodies are unchanged.
++ * See NOTICE.txt and provenance/license-only.patch.
++ */
++
+ #include "config.h"
+ #include "lottieitem.h"
+ #include "lottieloader.h"
+--- a/vendor/rlottie/src/lottie/lottieitem.cpp
++++ b/vendor/rlottie/src/lottie/lottieitem.cpp
+@@ -2,18 +2,24 @@
+  * Copyright (c) 2018 Samsung Electronics Co., Ltd. All rights reserved.
+  *
+  * This library is free software; you can redistribute it and/or
+- * modify it under the terms of the GNU Lesser General Public
++ * modify it under the terms of the GNU General Public
+  * License as published by the Free Software Foundation; either
+- * version 2.1 of the License, or (at your option) any later version.
++ * version 3 of the License, or (at your option) any later version.
+  *
+  * This library is distributed in the hope that it will be useful,
+  * but WITHOUT ANY WARRANTY; without even the implied warranty of
+  * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+- * Lesser General Public License for more details.
++ * General Public License for more details.
+  *
+- * You should have received a copy of the GNU Lesser General Public
++ * You should have received a copy of the GNU General Public
+  * License along with this library; if not, write to the Free Software
+  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301 USA
++ */
++
++/* Oritwig distribution notice, 2026-10-01.
++ * GNU license references above were converted to GPLv3 under
++ * LGPL-2.1 section 3. Copyrights and algorithm bodies are unchanged.
++ * See NOTICE.txt and provenance/license-only.patch.
+  */
+ 
+ #include "lottieitem.h"
+--- a/vendor/rlottie/src/lottie/lottieitem.h
++++ b/vendor/rlottie/src/lottie/lottieitem.h
+@@ -2,18 +2,24 @@
+  * Copyright (c) 2018 Samsung Electronics Co., Ltd. All rights reserved.
+  * 
+  * This library is free software; you can redistribute it and/or
+- * modify it under the terms of the GNU Lesser General Public
++ * modify it under the terms of the GNU General Public
+  * License as published by the Free Software Foundation; either
+- * version 2.1 of the License, or (at your option) any later version.
++ * version 3 of the License, or (at your option) any later version.
+  * 
+  * This library is distributed in the hope that it will be useful,
+  * but WITHOUT ANY WARRANTY; without even the implied warranty of
+  * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+- * Lesser General Public License for more details.
++ * General Public License for more details.
+  * 
+- * You should have received a copy of the GNU Lesser General Public
++ * You should have received a copy of the GNU General Public
+  * License along with this library; if not, write to the Free Software
+  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301  USA
++ */
++
++/* Oritwig distribution notice, 2026-10-01.
++ * GNU license references above were converted to GPLv3 under
++ * LGPL-2.1 section 3. Copyrights and algorithm bodies are unchanged.
++ * See NOTICE.txt and provenance/license-only.patch.
+  */
+ 
+ #ifndef LOTTIEITEM_H
+--- a/vendor/rlottie/src/lottie/lottiekeypath.h
++++ b/vendor/rlottie/src/lottie/lottiekeypath.h
+@@ -2,18 +2,24 @@
+  * Copyright (c) 2018 Samsung Electronics Co., Ltd. All rights reserved.
+  *
+  * This library is free software; you can redistribute it and/or
+- * modify it under the terms of the GNU Lesser General Public
++ * modify it under the terms of the GNU General Public
+  * License as published by the Free Software Foundation; either
+- * version 2.1 of the License, or (at your option) any later version.
++ * version 3 of the License, or (at your option) any later version.
+  *
+  * This library is distributed in the hope that it will be useful,
+  * but WITHOUT ANY WARRANTY; without even the implied warranty of
+  * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+- * Lesser General Public License for more details.
++ * General Public License for more details.
+  *
+- * You should have received a copy of the GNU Lesser General Public
++ * You should have received a copy of the GNU General Public
+  * License along with this library; if not, write to the Free Software
+  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301  USA
++ */
++
++/* Oritwig distribution notice, 2026-10-01.
++ * GNU license references above were converted to GPLv3 under
++ * LGPL-2.1 section 3. Copyrights and algorithm bodies are unchanged.
++ * See NOTICE.txt and provenance/license-only.patch.
+  */
+ 
+ #ifndef LOTTIEKEYPATH_H
+--- a/vendor/rlottie/src/lottie/lottieloader.cpp
++++ b/vendor/rlottie/src/lottie/lottieloader.cpp
+@@ -2,18 +2,24 @@
+  * Copyright (c) 2018 Samsung Electronics Co., Ltd. All rights reserved.
+  *
+  * This library is free software; you can redistribute it and/or
+- * modify it under the terms of the GNU Lesser General Public
++ * modify it under the terms of the GNU General Public
+  * License as published by the Free Software Foundation; either
+- * version 2.1 of the License, or (at your option) any later version.
++ * version 3 of the License, or (at your option) any later version.
+  *
+  * This library is distributed in the hope that it will be useful,
+  * but WITHOUT ANY WARRANTY; without even the implied warranty of
+  * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+- * Lesser General Public License for more details.
++ * General Public License for more details.
+  *
+- * You should have received a copy of the GNU Lesser General Public
++ * You should have received a copy of the GNU General Public
+  * License along with this library; if not, write to the Free Software
+  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301 USA
++ */
++
++/* Oritwig distribution notice, 2026-10-01.
++ * GNU license references above were converted to GPLv3 under
++ * LGPL-2.1 section 3. Copyrights and algorithm bodies are unchanged.
++ * See NOTICE.txt and provenance/license-only.patch.
+  */
+ 
+ #include "lottieloader.h"
+--- a/vendor/rlottie/src/lottie/lottieloader.h
++++ b/vendor/rlottie/src/lottie/lottieloader.h
+@@ -2,18 +2,24 @@
+  * Copyright (c) 2018 Samsung Electronics Co., Ltd. All rights reserved.
+  * 
+  * This library is free software; you can redistribute it and/or
+- * modify it under the terms of the GNU Lesser General Public
++ * modify it under the terms of the GNU General Public
+  * License as published by the Free Software Foundation; either
+- * version 2.1 of the License, or (at your option) any later version.
++ * version 3 of the License, or (at your option) any later version.
+  * 
+  * This library is distributed in the hope that it will be useful,
+  * but WITHOUT ANY WARRANTY; without even the implied warranty of
+  * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+- * Lesser General Public License for more details.
++ * General Public License for more details.
+  * 
+- * You should have received a copy of the GNU Lesser General Public
++ * You should have received a copy of the GNU General Public
+  * License along with this library; if not, write to the Free Software
+  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301  USA
++ */
++
++/* Oritwig distribution notice, 2026-10-01.
++ * GNU license references above were converted to GPLv3 under
++ * LGPL-2.1 section 3. Copyrights and algorithm bodies are unchanged.
++ * See NOTICE.txt and provenance/license-only.patch.
+  */
+ 
+ #ifndef LOTTIELOADER_H
+--- a/vendor/rlottie/src/lottie/lottiemodel.cpp
++++ b/vendor/rlottie/src/lottie/lottiemodel.cpp
+@@ -2,18 +2,24 @@
+  * Copyright (c) 2018 Samsung Electronics Co., Ltd. All rights reserved.
+  *
+  * This library is free software; you can redistribute it and/or
+- * modify it under the terms of the GNU Lesser General Public
++ * modify it under the terms of the GNU General Public
+  * License as published by the Free Software Foundation; either
+- * version 2.1 of the License, or (at your option) any later version.
++ * version 3 of the License, or (at your option) any later version.
+  *
+  * This library is distributed in the hope that it will be useful,
+  * but WITHOUT ANY WARRANTY; without even the implied warranty of
+  * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+- * Lesser General Public License for more details.
+- *
+- * You should have received a copy of the GNU Lesser General Public
++ * General Public License for more details.
++ *
++ * You should have received a copy of the GNU General Public
+  * License along with this library; if not, write to the Free Software
+  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301 USA
++ */
++
++/* Oritwig distribution notice, 2026-10-01.
++ * GNU license references above were converted to GPLv3 under
++ * LGPL-2.1 section 3. Copyrights and algorithm bodies are unchanged.
++ * See NOTICE.txt and provenance/license-only.patch.
+  */
+ 
+ #include "lottiemodel.h"
+--- a/vendor/rlottie/src/lottie/lottiemodel.h
++++ b/vendor/rlottie/src/lottie/lottiemodel.h
+@@ -2,18 +2,24 @@
+  * Copyright (c) 2018 Samsung Electronics Co., Ltd. All rights reserved.
+  * 
+  * This library is free software; you can redistribute it and/or
+- * modify it under the terms of the GNU Lesser General Public
++ * modify it under the terms of the GNU General Public
+  * License as published by the Free Software Foundation; either
+- * version 2.1 of the License, or (at your option) any later version.
++ * version 3 of the License, or (at your option) any later version.
+  * 
+  * This library is distributed in the hope that it will be useful,
+  * but WITHOUT ANY WARRANTY; without even the implied warranty of
+  * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+- * Lesser General Public License for more details.
++ * General Public License for more details.
+  * 
+- * You should have received a copy of the GNU Lesser General Public
++ * You should have received a copy of the GNU General Public
+  * License along with this library; if not, write to the Free Software
+  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301  USA
++ */
++
++/* Oritwig distribution notice, 2026-10-01.
++ * GNU license references above were converted to GPLv3 under
++ * LGPL-2.1 section 3. Copyrights and algorithm bodies are unchanged.
++ * See NOTICE.txt and provenance/license-only.patch.
+  */
+ 
+ #ifndef LOTModel_H
+--- a/vendor/rlottie/src/lottie/lottieparser.cpp
++++ b/vendor/rlottie/src/lottie/lottieparser.cpp
+@@ -2,18 +2,24 @@
+  * Copyright (c) 2018 Samsung Electronics Co., Ltd. All rights reserved.
+  *
+  * This library is free software; you can redistribute it and/or
+- * modify it under the terms of the GNU Lesser General Public
++ * modify it under the terms of the GNU General Public
+  * License as published by the Free Software Foundation; either
+- * version 2.1 of the License, or (at your option) any later version.
++ * version 3 of the License, or (at your option) any later version.
+  *
+  * This library is distributed in the hope that it will be useful,
+  * but WITHOUT ANY WARRANTY; without even the implied warranty of
+  * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+- * Lesser General Public License for more details.
++ * General Public License for more details.
+  *
+- * You should have received a copy of the GNU Lesser General Public
++ * You should have received a copy of the GNU General Public
+  * License along with this library; if not, write to the Free Software
+  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301 USA
++ */
++
++/* Oritwig distribution notice, 2026-10-01.
++ * GNU license references above were converted to GPLv3 under
++ * LGPL-2.1 section 3. Copyrights and algorithm bodies are unchanged.
++ * See NOTICE.txt and provenance/license-only.patch.
+  */
+ 
+ #include "lottieparser.h"
+--- a/vendor/rlottie/src/lottie/lottieparser.h
++++ b/vendor/rlottie/src/lottie/lottieparser.h
+@@ -2,18 +2,24 @@
+  * Copyright (c) 2018 Samsung Electronics Co., Ltd. All rights reserved.
+  * 
+  * This library is free software; you can redistribute it and/or
+- * modify it under the terms of the GNU Lesser General Public
++ * modify it under the terms of the GNU General Public
+  * License as published by the Free Software Foundation; either
+- * version 2.1 of the License, or (at your option) any later version.
++ * version 3 of the License, or (at your option) any later version.
+  * 
+  * This library is distributed in the hope that it will be useful,
+  * but WITHOUT ANY WARRANTY; without even the implied warranty of
+  * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+- * Lesser General Public License for more details.
++ * General Public License for more details.
+  * 
+- * You should have received a copy of the GNU Lesser General Public
++ * You should have received a copy of the GNU General Public
+  * License along with this library; if not, write to the Free Software
+  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301  USA
++ */
++
++/* Oritwig distribution notice, 2026-10-01.
++ * GNU license references above were converted to GPLv3 under
++ * LGPL-2.1 section 3. Copyrights and algorithm bodies are unchanged.
++ * See NOTICE.txt and provenance/license-only.patch.
+  */
+ 
+ #ifndef LOTTIEPARSER_H
+--- a/vendor/rlottie/src/lottie/lottieproxymodel.h
++++ b/vendor/rlottie/src/lottie/lottieproxymodel.h
+@@ -2,18 +2,24 @@
+  * Copyright (c) 2018 Samsung Electronics Co., Ltd. All rights reserved.
+  *
+  * This library is free software; you can redistribute it and/or
+- * modify it under the terms of the GNU Lesser General Public
++ * modify it under the terms of the GNU General Public
+  * License as published by the Free Software Foundation; either
+- * version 2.1 of the License, or (at your option) any later version.
++ * version 3 of the License, or (at your option) any later version.
+  *
+  * This library is distributed in the hope that it will be useful,
+  * but WITHOUT ANY WARRANTY; without even the implied warranty of
+  * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+- * Lesser General Public License for more details.
++ * General Public License for more details.
+  *
+- * You should have received a copy of the GNU Lesser General Public
++ * You should have received a copy of the GNU General Public
+  * License along with this library; if not, write to the Free Software
+  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301  USA
++ */
++
++/* Oritwig distribution notice, 2026-10-01.
++ * GNU license references above were converted to GPLv3 under
++ * LGPL-2.1 section 3. Copyrights and algorithm bodies are unchanged.
++ * See NOTICE.txt and provenance/license-only.patch.
+  */
+ 
+ #ifndef LOTTIEPROXYMODEL_H
+--- a/vendor/rlottie/src/vector/freetype/v_ft_math.cpp
++++ b/vendor/rlottie/src/vector/freetype/v_ft_math.cpp
+@@ -15,6 +15,15 @@
+ /*                                                                         */
+ /***************************************************************************/
+ 
++/* Additional upstream attribution retained for this distribution:
++ * Copyright 2018 The Abseil Authors.
++ * The fallback bit-count fragment below is adapted from bits.h at
++ * Chromium commit 59afd8336009c9d97c22854c52e0382b62b3aa5e,
++ * third_party/abseil-cpp/absl/base/internal/bits.h (Apache-2.0).
++ * See provenance/licenses/APACHE-2.0.txt and NOTICE.txt.
++ * Attribution added 2026-10-01; no algorithm body changed.
++ */
++
+ #include "v_ft_math.h"
+ #include <math.h>
+ 
+--- a/vendor/rlottie/src/vector/pixman/vregion.h
++++ b/vendor/rlottie/src/vector/pixman/vregion.h
+@@ -2,18 +2,24 @@
+  * Copyright (c) 2018 Samsung Electronics Co., Ltd. All rights reserved.
+  * 
+  * This library is free software; you can redistribute it and/or
+- * modify it under the terms of the GNU Lesser General Public
++ * modify it under the terms of the GNU General Public
+  * License as published by the Free Software Foundation; either
+- * version 2.1 of the License, or (at your option) any later version.
++ * version 3 of the License, or (at your option) any later version.
+  * 
+  * This library is distributed in the hope that it will be useful,
+  * but WITHOUT ANY WARRANTY; without even the implied warranty of
+  * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+- * Lesser General Public License for more details.
++ * General Public License for more details.
+  * 
+- * You should have received a copy of the GNU Lesser General Public
++ * You should have received a copy of the GNU General Public
+  * License along with this library; if not, write to the Free Software
+  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301  USA
++ */
++
++/* Oritwig distribution notice, 2026-10-01.
++ * GNU license references above were converted to GPLv3 under
++ * LGPL-2.1 section 3. Copyrights and algorithm bodies are unchanged.
++ * See NOTICE.txt and provenance/license-only.patch.
+  */
+ 
+ #ifndef VREGION_H
+--- a/vendor/rlottie/src/vector/vbezier.cpp
++++ b/vendor/rlottie/src/vector/vbezier.cpp
+@@ -2,18 +2,24 @@
+  * Copyright (c) 2018 Samsung Electronics Co., Ltd. All rights reserved.
+  *
+  * This library is free software; you can redistribute it and/or
+- * modify it under the terms of the GNU Lesser General Public
++ * modify it under the terms of the GNU General Public
+  * License as published by the Free Software Foundation; either
+- * version 2.1 of the License, or (at your option) any later version.
++ * version 3 of the License, or (at your option) any later version.
+  *
+  * This library is distributed in the hope that it will be useful,
+  * but WITHOUT ANY WARRANTY; without even the implied warranty of
+  * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+- * Lesser General Public License for more details.
++ * General Public License for more details.
+  *
+- * You should have received a copy of the GNU Lesser General Public
++ * You should have received a copy of the GNU General Public
+  * License along with this library; if not, write to the Free Software
+  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301 USA
++ */
++
++/* Oritwig distribution notice, 2026-10-01.
++ * GNU license references above were converted to GPLv3 under
++ * LGPL-2.1 section 3. Copyrights and algorithm bodies are unchanged.
++ * See NOTICE.txt and provenance/license-only.patch.
+  */
+ 
+ #include "vbezier.h"
+--- a/vendor/rlottie/src/vector/vbezier.h
++++ b/vendor/rlottie/src/vector/vbezier.h
+@@ -2,18 +2,24 @@
+  * Copyright (c) 2018 Samsung Electronics Co., Ltd. All rights reserved.
+  * 
+  * This library is free software; you can redistribute it and/or
+- * modify it under the terms of the GNU Lesser General Public
++ * modify it under the terms of the GNU General Public
+  * License as published by the Free Software Foundation; either
+- * version 2.1 of the License, or (at your option) any later version.
++ * version 3 of the License, or (at your option) any later version.
+  * 
+  * This library is distributed in the hope that it will be useful,
+  * but WITHOUT ANY WARRANTY; without even the implied warranty of
+  * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+- * Lesser General Public License for more details.
++ * General Public License for more details.
+  * 
+- * You should have received a copy of the GNU Lesser General Public
++ * You should have received a copy of the GNU General Public
+  * License along with this library; if not, write to the Free Software
+  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301  USA
++ */
++
++/* Oritwig distribution notice, 2026-10-01.
++ * GNU license references above were converted to GPLv3 under
++ * LGPL-2.1 section 3. Copyrights and algorithm bodies are unchanged.
++ * See NOTICE.txt and provenance/license-only.patch.
+  */
+ 
+ #ifndef VBEZIER_H
+--- a/vendor/rlottie/src/vector/vbitmap.cpp
++++ b/vendor/rlottie/src/vector/vbitmap.cpp
+@@ -2,18 +2,24 @@
+  * Copyright (c) 2018 Samsung Electronics Co., Ltd. All rights reserved.
+  *
+  * This library is free software; you can redistribute it and/or
+- * modify it under the terms of the GNU Lesser General Public
++ * modify it under the terms of the GNU General Public
+  * License as published by the Free Software Foundation; either
+- * version 2.1 of the License, or (at your option) any later version.
++ * version 3 of the License, or (at your option) any later version.
+  *
+  * This library is distributed in the hope that it will be useful,
+  * but WITHOUT ANY WARRANTY; without even the implied warranty of
+  * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+- * Lesser General Public License for more details.
++ * General Public License for more details.
+  *
+- * You should have received a copy of the GNU Lesser General Public
++ * You should have received a copy of the GNU General Public
+  * License along with this library; if not, write to the Free Software
+  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301 USA
++ */
++
++/* Oritwig distribution notice, 2026-10-01.
++ * GNU license references above were converted to GPLv3 under
++ * LGPL-2.1 section 3. Copyrights and algorithm bodies are unchanged.
++ * See NOTICE.txt and provenance/license-only.patch.
+  */
+ 
+ #include "vbitmap.h"
+--- a/vendor/rlottie/src/vector/vbitmap.h
++++ b/vendor/rlottie/src/vector/vbitmap.h
+@@ -2,18 +2,24 @@
+  * Copyright (c) 2018 Samsung Electronics Co., Ltd. All rights reserved.
+  * 
+  * This library is free software; you can redistribute it and/or
+- * modify it under the terms of the GNU Lesser General Public
++ * modify it under the terms of the GNU General Public
+  * License as published by the Free Software Foundation; either
+- * version 2.1 of the License, or (at your option) any later version.
++ * version 3 of the License, or (at your option) any later version.
+  * 
+  * This library is distributed in the hope that it will be useful,
+  * but WITHOUT ANY WARRANTY; without even the implied warranty of
+  * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+- * Lesser General Public License for more details.
++ * General Public License for more details.
+  * 
+- * You should have received a copy of the GNU Lesser General Public
++ * You should have received a copy of the GNU General Public
+  * License along with this library; if not, write to the Free Software
+  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301  USA
++ */
++
++/* Oritwig distribution notice, 2026-10-01.
++ * GNU license references above were converted to GPLv3 under
++ * LGPL-2.1 section 3. Copyrights and algorithm bodies are unchanged.
++ * See NOTICE.txt and provenance/license-only.patch.
+  */
+ 
+ #ifndef VBITMAP_H
+--- a/vendor/rlottie/src/vector/vbrush.cpp
++++ b/vendor/rlottie/src/vector/vbrush.cpp
+@@ -2,18 +2,24 @@
+  * Copyright (c) 2018 Samsung Electronics Co., Ltd. All rights reserved.
+  *
+  * This library is free software; you can redistribute it and/or
+- * modify it under the terms of the GNU Lesser General Public
++ * modify it under the terms of the GNU General Public
+  * License as published by the Free Software Foundation; either
+- * version 2.1 of the License, or (at your option) any later version.
++ * version 3 of the License, or (at your option) any later version.
+  *
+  * This library is distributed in the hope that it will be useful,
+  * but WITHOUT ANY WARRANTY; without even the implied warranty of
+  * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+- * Lesser General Public License for more details.
++ * General Public License for more details.
+  *
+- * You should have received a copy of the GNU Lesser General Public
++ * You should have received a copy of the GNU General Public
+  * License along with this library; if not, write to the Free Software
+  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301 USA
++ */
++
++/* Oritwig distribution notice, 2026-10-01.
++ * GNU license references above were converted to GPLv3 under
++ * LGPL-2.1 section 3. Copyrights and algorithm bodies are unchanged.
++ * See NOTICE.txt and provenance/license-only.patch.
+  */
+ 
+ #include "vbrush.h"
+--- a/vendor/rlottie/src/vector/vbrush.h
++++ b/vendor/rlottie/src/vector/vbrush.h
+@@ -2,18 +2,24 @@
+  * Copyright (c) 2018 Samsung Electronics Co., Ltd. All rights reserved.
+  * 
+  * This library is free software; you can redistribute it and/or
+- * modify it under the terms of the GNU Lesser General Public
++ * modify it under the terms of the GNU General Public
+  * License as published by the Free Software Foundation; either
+- * version 2.1 of the License, or (at your option) any later version.
++ * version 3 of the License, or (at your option) any later version.
+  * 
+  * This library is distributed in the hope that it will be useful,
+  * but WITHOUT ANY WARRANTY; without even the implied warranty of
+  * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+- * Lesser General Public License for more details.
++ * General Public License for more details.
+  * 
+- * You should have received a copy of the GNU Lesser General Public
++ * You should have received a copy of the GNU General Public
+  * License along with this library; if not, write to the Free Software
+  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301  USA
++ */
++
++/* Oritwig distribution notice, 2026-10-01.
++ * GNU license references above were converted to GPLv3 under
++ * LGPL-2.1 section 3. Copyrights and algorithm bodies are unchanged.
++ * See NOTICE.txt and provenance/license-only.patch.
+  */
+ 
+ #ifndef VBRUSH_H
+--- a/vendor/rlottie/src/vector/vcompositionfunctions.cpp
++++ b/vendor/rlottie/src/vector/vcompositionfunctions.cpp
+@@ -2,18 +2,24 @@
+  * Copyright (c) 2018 Samsung Electronics Co., Ltd. All rights reserved.
+  *
+  * This library is free software; you can redistribute it and/or
+- * modify it under the terms of the GNU Lesser General Public
++ * modify it under the terms of the GNU General Public
+  * License as published by the Free Software Foundation; either
+- * version 2.1 of the License, or (at your option) any later version.
++ * version 3 of the License, or (at your option) any later version.
+  *
+  * This library is distributed in the hope that it will be useful,
+  * but WITHOUT ANY WARRANTY; without even the implied warranty of
+  * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+- * Lesser General Public License for more details.
++ * General Public License for more details.
+  *
+- * You should have received a copy of the GNU Lesser General Public
++ * You should have received a copy of the GNU General Public
+  * License along with this library; if not, write to the Free Software
+  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301 USA
++ */
++
++/* Oritwig distribution notice, 2026-10-01.
++ * GNU license references above were converted to GPLv3 under
++ * LGPL-2.1 section 3. Copyrights and algorithm bodies are unchanged.
++ * See NOTICE.txt and provenance/license-only.patch.
+  */
+ 
+ #include "vdrawhelper.h"
+--- a/vendor/rlottie/src/vector/vcowptr.h
++++ b/vendor/rlottie/src/vector/vcowptr.h
+@@ -2,18 +2,24 @@
+  * Copyright (c) 2018 Samsung Electronics Co., Ltd. All rights reserved.
+  * 
+  * This library is free software; you can redistribute it and/or
+- * modify it under the terms of the GNU Lesser General Public
++ * modify it under the terms of the GNU General Public
+  * License as published by the Free Software Foundation; either
+- * version 2.1 of the License, or (at your option) any later version.
++ * version 3 of the License, or (at your option) any later version.
+  * 
+  * This library is distributed in the hope that it will be useful,
+  * but WITHOUT ANY WARRANTY; without even the implied warranty of
+  * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+- * Lesser General Public License for more details.
++ * General Public License for more details.
+  * 
+- * You should have received a copy of the GNU Lesser General Public
++ * You should have received a copy of the GNU General Public
+  * License along with this library; if not, write to the Free Software
+  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301  USA
++ */
++
++/* Oritwig distribution notice, 2026-10-01.
++ * GNU license references above were converted to GPLv3 under
++ * LGPL-2.1 section 3. Copyrights and algorithm bodies are unchanged.
++ * See NOTICE.txt and provenance/license-only.patch.
+  */
+ 
+ #ifndef VCOWPTR_H
+--- a/vendor/rlottie/src/vector/vdasher.cpp
++++ b/vendor/rlottie/src/vector/vdasher.cpp
+@@ -2,18 +2,24 @@
+  * Copyright (c) 2018 Samsung Electronics Co., Ltd. All rights reserved.
+  *
+  * This library is free software; you can redistribute it and/or
+- * modify it under the terms of the GNU Lesser General Public
++ * modify it under the terms of the GNU General Public
+  * License as published by the Free Software Foundation; either
+- * version 2.1 of the License, or (at your option) any later version.
++ * version 3 of the License, or (at your option) any later version.
+  *
+  * This library is distributed in the hope that it will be useful,
+  * but WITHOUT ANY WARRANTY; without even the implied warranty of
+  * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+- * Lesser General Public License for more details.
++ * General Public License for more details.
+  *
+- * You should have received a copy of the GNU Lesser General Public
++ * You should have received a copy of the GNU General Public
+  * License along with this library; if not, write to the Free Software
+  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301 USA
++ */
++
++/* Oritwig distribution notice, 2026-10-01.
++ * GNU license references above were converted to GPLv3 under
++ * LGPL-2.1 section 3. Copyrights and algorithm bodies are unchanged.
++ * See NOTICE.txt and provenance/license-only.patch.
+  */
+ 
+ #include "vbezier.h"
+--- a/vendor/rlottie/src/vector/vdasher.h
++++ b/vendor/rlottie/src/vector/vdasher.h
+@@ -2,18 +2,24 @@
+  * Copyright (c) 2018 Samsung Electronics Co., Ltd. All rights reserved.
+  * 
+  * This library is free software; you can redistribute it and/or
+- * modify it under the terms of the GNU Lesser General Public
++ * modify it under the terms of the GNU General Public
+  * License as published by the Free Software Foundation; either
+- * version 2.1 of the License, or (at your option) any later version.
++ * version 3 of the License, or (at your option) any later version.
+  * 
+  * This library is distributed in the hope that it will be useful,
+  * but WITHOUT ANY WARRANTY; without even the implied warranty of
+  * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+- * Lesser General Public License for more details.
++ * General Public License for more details.
+  * 
+- * You should have received a copy of the GNU Lesser General Public
++ * You should have received a copy of the GNU General Public
+  * License along with this library; if not, write to the Free Software
+  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301  USA
++ */
++
++/* Oritwig distribution notice, 2026-10-01.
++ * GNU license references above were converted to GPLv3 under
++ * LGPL-2.1 section 3. Copyrights and algorithm bodies are unchanged.
++ * See NOTICE.txt and provenance/license-only.patch.
+  */
+ 
+ #ifndef VDASHER_H
+--- a/vendor/rlottie/src/vector/vdebug.cpp
++++ b/vendor/rlottie/src/vector/vdebug.cpp
+@@ -2,18 +2,24 @@
+  * Copyright (c) 2018 Samsung Electronics Co., Ltd. All rights reserved.
+  *
+  * This library is free software; you can redistribute it and/or
+- * modify it under the terms of the GNU Lesser General Public
++ * modify it under the terms of the GNU General Public
+  * License as published by the Free Software Foundation; either
+- * version 2.1 of the License, or (at your option) any later version.
++ * version 3 of the License, or (at your option) any later version.
+  *
+  * This library is distributed in the hope that it will be useful,
+  * but WITHOUT ANY WARRANTY; without even the implied warranty of
+  * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+- * Lesser General Public License for more details.
++ * General Public License for more details.
+  *
+- * You should have received a copy of the GNU Lesser General Public
++ * You should have received a copy of the GNU General Public
+  * License along with this library; if not, write to the Free Software
+  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301 USA
++ */
++
++/* Oritwig distribution notice, 2026-10-01.
++ * GNU license references above were converted to GPLv3 under
++ * LGPL-2.1 section 3. Copyrights and algorithm bodies are unchanged.
++ * See NOTICE.txt and provenance/license-only.patch.
+  */
+ 
+ #include "vdebug.h"
+--- a/vendor/rlottie/src/vector/vdebug.h
++++ b/vendor/rlottie/src/vector/vdebug.h
+@@ -2,18 +2,24 @@
+  * Copyright (c) 2018 Samsung Electronics Co., Ltd. All rights reserved.
+  * 
+  * This library is free software; you can redistribute it and/or
+- * modify it under the terms of the GNU Lesser General Public
++ * modify it under the terms of the GNU General Public
+  * License as published by the Free Software Foundation; either
+- * version 2.1 of the License, or (at your option) any later version.
++ * version 3 of the License, or (at your option) any later version.
+  * 
+  * This library is distributed in the hope that it will be useful,
+  * but WITHOUT ANY WARRANTY; without even the implied warranty of
+  * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+- * Lesser General Public License for more details.
++ * General Public License for more details.
+  * 
+- * You should have received a copy of the GNU Lesser General Public
++ * You should have received a copy of the GNU General Public
+  * License along with this library; if not, write to the Free Software
+  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301  USA
++ */
++
++/* Oritwig distribution notice, 2026-10-01.
++ * GNU license references above were converted to GPLv3 under
++ * LGPL-2.1 section 3. Copyrights and algorithm bodies are unchanged.
++ * See NOTICE.txt and provenance/license-only.patch.
+  */
+ 
+ #ifndef VDEBUG_H
+--- a/vendor/rlottie/src/vector/vdrawable.cpp
++++ b/vendor/rlottie/src/vector/vdrawable.cpp
+@@ -2,18 +2,24 @@
+  * Copyright (c) 2018 Samsung Electronics Co., Ltd. All rights reserved.
+  *
+  * This library is free software; you can redistribute it and/or
+- * modify it under the terms of the GNU Lesser General Public
++ * modify it under the terms of the GNU General Public
+  * License as published by the Free Software Foundation; either
+- * version 2.1 of the License, or (at your option) any later version.
++ * version 3 of the License, or (at your option) any later version.
+  *
+  * This library is distributed in the hope that it will be useful,
+  * but WITHOUT ANY WARRANTY; without even the implied warranty of
+  * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+- * Lesser General Public License for more details.
++ * General Public License for more details.
+  *
+- * You should have received a copy of the GNU Lesser General Public
++ * You should have received a copy of the GNU General Public
+  * License along with this library; if not, write to the Free Software
+  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301 USA
++ */
++
++/* Oritwig distribution notice, 2026-10-01.
++ * GNU license references above were converted to GPLv3 under
++ * LGPL-2.1 section 3. Copyrights and algorithm bodies are unchanged.
++ * See NOTICE.txt and provenance/license-only.patch.
+  */
+ 
+ #include "vdrawable.h"
+--- a/vendor/rlottie/src/vector/vdrawable.h
++++ b/vendor/rlottie/src/vector/vdrawable.h
+@@ -2,18 +2,24 @@
+  * Copyright (c) 2018 Samsung Electronics Co., Ltd. All rights reserved.
+  * 
+  * This library is free software; you can redistribute it and/or
+- * modify it under the terms of the GNU Lesser General Public
++ * modify it under the terms of the GNU General Public
+  * License as published by the Free Software Foundation; either
+- * version 2.1 of the License, or (at your option) any later version.
++ * version 3 of the License, or (at your option) any later version.
+  * 
+  * This library is distributed in the hope that it will be useful,
+  * but WITHOUT ANY WARRANTY; without even the implied warranty of
+  * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+- * Lesser General Public License for more details.
++ * General Public License for more details.
+  * 
+- * You should have received a copy of the GNU Lesser General Public
++ * You should have received a copy of the GNU General Public
+  * License along with this library; if not, write to the Free Software
+  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301  USA
++ */
++
++/* Oritwig distribution notice, 2026-10-01.
++ * GNU license references above were converted to GPLv3 under
++ * LGPL-2.1 section 3. Copyrights and algorithm bodies are unchanged.
++ * See NOTICE.txt and provenance/license-only.patch.
+  */
+ 
+ #ifndef VDRAWABLE_H
+--- a/vendor/rlottie/src/vector/vdrawhelper.cpp
++++ b/vendor/rlottie/src/vector/vdrawhelper.cpp
+@@ -2,16 +2,16 @@
+  * Copyright (c) 2018 Samsung Electronics Co., Ltd. All rights reserved.
+  *
+  * This library is free software; you can redistribute it and/or
+- * modify it under the terms of the GNU Lesser General Public
++ * modify it under the terms of the GNU General Public
+  * License as published by the Free Software Foundation; either
+- * version 2.1 of the License, or (at your option) any later version.
++ * version 3 of the License, or (at your option) any later version.
+  *
+  * This library is distributed in the hope that it will be useful,
+  * but WITHOUT ANY WARRANTY; without even the implied warranty of
+  * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+- * Lesser General Public License for more details.
++ * General Public License for more details.
+  *
+- * You should have received a copy of the GNU Lesser General Public
++ * You should have received a copy of the GNU General Public
+  * License along with this library; if not, write to the Free Software
+  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301 USA
+  */
+@@ -24,20 +24,20 @@
+ **
+ ** This file is part of the QtGui module of the Qt Toolkit.
+ **
+-** $QT_BEGIN_LICENSE:LGPL$
++** $QT_BEGIN_LICENSE:GPL$
+ ** No Commercial Usage
+ ** This file contains pre-release code and may not be distributed.
+ ** You may use this file in accordance with the terms and conditions
+ ** contained in the Technology Preview License Agreement accompanying
+ ** this package.
+ **
+-** GNU Lesser General Public License Usage
+-** Alternatively, this file may be used under the terms of the GNU Lesser
+-** General Public License version 2.1 as published by the Free Software
+-** Foundation and appearing in the file LICENSE.LGPL included in the
++** GNU General Public License Usage
++** Alternatively, this file may be used under the terms of the GNU
++** General Public License version 3 as published by the Free Software
++** Foundation and appearing in the file COPYING.GPL included in the
+ ** packaging of this file.  Please review the following information to
+-** ensure the GNU Lesser General Public License version 2.1 requirements
+-** will be met: http://www.gnu.org/licenses/old-licenses/lgpl-2.1.html.
++** ensure the GNU General Public License version 3 requirements
++** will be met: https://www.gnu.org/licenses/gpl-3.0.html.
+ **
+ ** In addition, as a special exception, Nokia gives you certain additional
+ ** rights.  These rights are described in the Nokia Qt LGPL Exception
+@@ -49,6 +49,15 @@
+ ** $QT_END_LICENSE$
+ **
+ ****************************************************************************/
++
++/* Oritwig distribution notice, 2026-10-01.
++ * GNU license references above were converted to GPLv3 under
++ * LGPL-2.1 section 3. Copyrights and algorithm bodies are unchanged.
++ * See NOTICE.txt and provenance/license-only.patch.
++ * The historical preview-license branch and named Nokia Qt LGPL
++ * Exception 1.1 are retained for provenance, not elected here.
++ * The alternative GNU grant above is the selected GPLv3 grant.
++ */
+ 
+ #include "vdrawhelper.h"
+ #include <algorithm>
+--- a/vendor/rlottie/src/vector/vdrawhelper.h
++++ b/vendor/rlottie/src/vector/vdrawhelper.h
+@@ -2,18 +2,24 @@
+  * Copyright (c) 2018 Samsung Electronics Co., Ltd. All rights reserved.
+  * 
+  * This library is free software; you can redistribute it and/or
+- * modify it under the terms of the GNU Lesser General Public
++ * modify it under the terms of the GNU General Public
+  * License as published by the Free Software Foundation; either
+- * version 2.1 of the License, or (at your option) any later version.
++ * version 3 of the License, or (at your option) any later version.
+  * 
+  * This library is distributed in the hope that it will be useful,
+  * but WITHOUT ANY WARRANTY; without even the implied warranty of
+  * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+- * Lesser General Public License for more details.
++ * General Public License for more details.
+  * 
+- * You should have received a copy of the GNU Lesser General Public
++ * You should have received a copy of the GNU General Public
+  * License along with this library; if not, write to the Free Software
+  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301  USA
++ */
++
++/* Oritwig distribution notice, 2026-10-01.
++ * GNU license references above were converted to GPLv3 under
++ * LGPL-2.1 section 3. Copyrights and algorithm bodies are unchanged.
++ * See NOTICE.txt and provenance/license-only.patch.
+  */
+ 
+ #ifndef VDRAWHELPER_H
+--- a/vendor/rlottie/src/vector/velapsedtimer.cpp
++++ b/vendor/rlottie/src/vector/velapsedtimer.cpp
+@@ -2,18 +2,24 @@
+  * Copyright (c) 2018 Samsung Electronics Co., Ltd. All rights reserved.
+  *
+  * This library is free software; you can redistribute it and/or
+- * modify it under the terms of the GNU Lesser General Public
++ * modify it under the terms of the GNU General Public
+  * License as published by the Free Software Foundation; either
+- * version 2.1 of the License, or (at your option) any later version.
++ * version 3 of the License, or (at your option) any later version.
+  *
+  * This library is distributed in the hope that it will be useful,
+  * but WITHOUT ANY WARRANTY; without even the implied warranty of
+  * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+- * Lesser General Public License for more details.
++ * General Public License for more details.
+  *
+- * You should have received a copy of the GNU Lesser General Public
++ * You should have received a copy of the GNU General Public
+  * License along with this library; if not, write to the Free Software
+  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301 USA
++ */
++
++/* Oritwig distribution notice, 2026-10-01.
++ * GNU license references above were converted to GPLv3 under
++ * LGPL-2.1 section 3. Copyrights and algorithm bodies are unchanged.
++ * See NOTICE.txt and provenance/license-only.patch.
+  */
+ 
+ #include "velapsedtimer.h"
+--- a/vendor/rlottie/src/vector/velapsedtimer.h
++++ b/vendor/rlottie/src/vector/velapsedtimer.h
+@@ -2,18 +2,24 @@
+  * Copyright (c) 2018 Samsung Electronics Co., Ltd. All rights reserved.
+  * 
+  * This library is free software; you can redistribute it and/or
+- * modify it under the terms of the GNU Lesser General Public
++ * modify it under the terms of the GNU General Public
+  * License as published by the Free Software Foundation; either
+- * version 2.1 of the License, or (at your option) any later version.
++ * version 3 of the License, or (at your option) any later version.
+  * 
+  * This library is distributed in the hope that it will be useful,
+  * but WITHOUT ANY WARRANTY; without even the implied warranty of
+  * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+- * Lesser General Public License for more details.
++ * General Public License for more details.
+  * 
+- * You should have received a copy of the GNU Lesser General Public
++ * You should have received a copy of the GNU General Public
+  * License along with this library; if not, write to the Free Software
+  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301  USA
++ */
++
++/* Oritwig distribution notice, 2026-10-01.
++ * GNU license references above were converted to GPLv3 under
++ * LGPL-2.1 section 3. Copyrights and algorithm bodies are unchanged.
++ * See NOTICE.txt and provenance/license-only.patch.
+  */
+ 
+ #ifndef VELAPSEDTIMER_H
+--- a/vendor/rlottie/src/vector/vglobal.h
++++ b/vendor/rlottie/src/vector/vglobal.h
+@@ -2,18 +2,24 @@
+  * Copyright (c) 2018 Samsung Electronics Co., Ltd. All rights reserved.
+  * 
+  * This library is free software; you can redistribute it and/or
+- * modify it under the terms of the GNU Lesser General Public
++ * modify it under the terms of the GNU General Public
+  * License as published by the Free Software Foundation; either
+- * version 2.1 of the License, or (at your option) any later version.
++ * version 3 of the License, or (at your option) any later version.
+  * 
+  * This library is distributed in the hope that it will be useful,
+  * but WITHOUT ANY WARRANTY; without even the implied warranty of
+  * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+- * Lesser General Public License for more details.
++ * General Public License for more details.
+  * 
+- * You should have received a copy of the GNU Lesser General Public
++ * You should have received a copy of the GNU General Public
+  * License along with this library; if not, write to the Free Software
+  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301  USA
++ */
++
++/* Oritwig distribution notice, 2026-10-01.
++ * GNU license references above were converted to GPLv3 under
++ * LGPL-2.1 section 3. Copyrights and algorithm bodies are unchanged.
++ * See NOTICE.txt and provenance/license-only.patch.
+  */
+ 
+ #ifndef VGLOBAL_H
+--- a/vendor/rlottie/src/vector/vinterpolator.cpp
++++ b/vendor/rlottie/src/vector/vinterpolator.cpp
+@@ -33,6 +33,12 @@
+  * the terms of any one of the MPL, the GPL or the LGPL.
+  *
+  * ***** END LICENSE BLOCK ***** */
++
++/* Oritwig distribution notice, 2026-10-01.
++ * This distribution selects GPLv3 under the original GPL version 2
++ * or later alternative above. The original tri-license notice and
++ * Brian Birtles attribution are retained; no algorithm is changed.
++ */
+ 
+ #include "vinterpolator.h"
+ #include <cmath>
+--- a/vendor/rlottie/src/vector/vinterpolator.h
++++ b/vendor/rlottie/src/vector/vinterpolator.h
+@@ -2,18 +2,24 @@
+  * Copyright (c) 2018 Samsung Electronics Co., Ltd. All rights reserved.
+  * 
+  * This library is free software; you can redistribute it and/or
+- * modify it under the terms of the GNU Lesser General Public
++ * modify it under the terms of the GNU General Public
+  * License as published by the Free Software Foundation; either
+- * version 2.1 of the License, or (at your option) any later version.
++ * version 3 of the License, or (at your option) any later version.
+  * 
+  * This library is distributed in the hope that it will be useful,
+  * but WITHOUT ANY WARRANTY; without even the implied warranty of
+  * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+- * Lesser General Public License for more details.
++ * General Public License for more details.
+  * 
+- * You should have received a copy of the GNU Lesser General Public
++ * You should have received a copy of the GNU General Public
+  * License along with this library; if not, write to the Free Software
+  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301  USA
++ */
++
++/* Oritwig distribution notice, 2026-10-01.
++ * GNU license references above were converted to GPLv3 under
++ * LGPL-2.1 section 3. Copyrights and algorithm bodies are unchanged.
++ * See NOTICE.txt and provenance/license-only.patch.
+  */
+ 
+ #ifndef VINTERPOLATOR_H
+--- a/vendor/rlottie/src/vector/vline.h
++++ b/vendor/rlottie/src/vector/vline.h
+@@ -2,18 +2,24 @@
+  * Copyright (c) 2018 Samsung Electronics Co., Ltd. All rights reserved.
+  * 
+  * This library is free software; you can redistribute it and/or
+- * modify it under the terms of the GNU Lesser General Public
++ * modify it under the terms of the GNU General Public
+  * License as published by the Free Software Foundation; either
+- * version 2.1 of the License, or (at your option) any later version.
++ * version 3 of the License, or (at your option) any later version.
+  * 
+  * This library is distributed in the hope that it will be useful,
+  * but WITHOUT ANY WARRANTY; without even the implied warranty of
+  * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+- * Lesser General Public License for more details.
++ * General Public License for more details.
+  * 
+- * You should have received a copy of the GNU Lesser General Public
++ * You should have received a copy of the GNU General Public
+  * License along with this library; if not, write to the Free Software
+  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301  USA
++ */
++
++/* Oritwig distribution notice, 2026-10-01.
++ * GNU license references above were converted to GPLv3 under
++ * LGPL-2.1 section 3. Copyrights and algorithm bodies are unchanged.
++ * See NOTICE.txt and provenance/license-only.patch.
+  */
+ 
+ #ifndef VLINE_H
+--- a/vendor/rlottie/src/vector/vmatrix.cpp
++++ b/vendor/rlottie/src/vector/vmatrix.cpp
+@@ -2,18 +2,24 @@
+  * Copyright (c) 2018 Samsung Electronics Co., Ltd. All rights reserved.
+  *
+  * This library is free software; you can redistribute it and/or
+- * modify it under the terms of the GNU Lesser General Public
++ * modify it under the terms of the GNU General Public
+  * License as published by the Free Software Foundation; either
+- * version 2.1 of the License, or (at your option) any later version.
++ * version 3 of the License, or (at your option) any later version.
+  *
+  * This library is distributed in the hope that it will be useful,
+  * but WITHOUT ANY WARRANTY; without even the implied warranty of
+  * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+- * Lesser General Public License for more details.
++ * General Public License for more details.
+  *
+- * You should have received a copy of the GNU Lesser General Public
++ * You should have received a copy of the GNU General Public
+  * License along with this library; if not, write to the Free Software
+  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301 USA
++ */
++
++/* Oritwig distribution notice, 2026-10-01.
++ * GNU license references above were converted to GPLv3 under
++ * LGPL-2.1 section 3. Copyrights and algorithm bodies are unchanged.
++ * See NOTICE.txt and provenance/license-only.patch.
+  */
+ 
+ #include "vmatrix.h"
+--- a/vendor/rlottie/src/vector/vmatrix.h
++++ b/vendor/rlottie/src/vector/vmatrix.h
+@@ -2,18 +2,24 @@
+  * Copyright (c) 2018 Samsung Electronics Co., Ltd. All rights reserved.
+  * 
+  * This library is free software; you can redistribute it and/or
+- * modify it under the terms of the GNU Lesser General Public
++ * modify it under the terms of the GNU General Public
+  * License as published by the Free Software Foundation; either
+- * version 2.1 of the License, or (at your option) any later version.
++ * version 3 of the License, or (at your option) any later version.
+  * 
+  * This library is distributed in the hope that it will be useful,
+  * but WITHOUT ANY WARRANTY; without even the implied warranty of
+  * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+- * Lesser General Public License for more details.
++ * General Public License for more details.
+  * 
+- * You should have received a copy of the GNU Lesser General Public
++ * You should have received a copy of the GNU General Public
+  * License along with this library; if not, write to the Free Software
+  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301  USA
++ */
++
++/* Oritwig distribution notice, 2026-10-01.
++ * GNU license references above were converted to GPLv3 under
++ * LGPL-2.1 section 3. Copyrights and algorithm bodies are unchanged.
++ * See NOTICE.txt and provenance/license-only.patch.
+  */
+ 
+ #ifndef VMATRIX_H
+--- a/vendor/rlottie/src/vector/vpainter.cpp
++++ b/vendor/rlottie/src/vector/vpainter.cpp
+@@ -2,18 +2,24 @@
+  * Copyright (c) 2018 Samsung Electronics Co., Ltd. All rights reserved.
+  *
+  * This library is free software; you can redistribute it and/or
+- * modify it under the terms of the GNU Lesser General Public
++ * modify it under the terms of the GNU General Public
+  * License as published by the Free Software Foundation; either
+- * version 2.1 of the License, or (at your option) any later version.
++ * version 3 of the License, or (at your option) any later version.
+  *
+  * This library is distributed in the hope that it will be useful,
+  * but WITHOUT ANY WARRANTY; without even the implied warranty of
+  * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+- * Lesser General Public License for more details.
++ * General Public License for more details.
+  *
+- * You should have received a copy of the GNU Lesser General Public
++ * You should have received a copy of the GNU General Public
+  * License along with this library; if not, write to the Free Software
+  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301 USA
++ */
++
++/* Oritwig distribution notice, 2026-10-01.
++ * GNU license references above were converted to GPLv3 under
++ * LGPL-2.1 section 3. Copyrights and algorithm bodies are unchanged.
++ * See NOTICE.txt and provenance/license-only.patch.
+  */
+ 
+ #include "vpainter.h"
+--- a/vendor/rlottie/src/vector/vpainter.h
++++ b/vendor/rlottie/src/vector/vpainter.h
+@@ -2,18 +2,24 @@
+  * Copyright (c) 2018 Samsung Electronics Co., Ltd. All rights reserved.
+  * 
+  * This library is free software; you can redistribute it and/or
+- * modify it under the terms of the GNU Lesser General Public
++ * modify it under the terms of the GNU General Public
+  * License as published by the Free Software Foundation; either
+- * version 2.1 of the License, or (at your option) any later version.
++ * version 3 of the License, or (at your option) any later version.
+  * 
+  * This library is distributed in the hope that it will be useful,
+  * but WITHOUT ANY WARRANTY; without even the implied warranty of
+  * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+- * Lesser General Public License for more details.
++ * General Public License for more details.
+  * 
+- * You should have received a copy of the GNU Lesser General Public
++ * You should have received a copy of the GNU General Public
+  * License along with this library; if not, write to the Free Software
+  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301  USA
++ */
++
++/* Oritwig distribution notice, 2026-10-01.
++ * GNU license references above were converted to GPLv3 under
++ * LGPL-2.1 section 3. Copyrights and algorithm bodies are unchanged.
++ * See NOTICE.txt and provenance/license-only.patch.
+  */
+ 
+ #ifndef VPAINTER_H
+--- a/vendor/rlottie/src/vector/vpath.cpp
++++ b/vendor/rlottie/src/vector/vpath.cpp
+@@ -2,18 +2,24 @@
+  * Copyright (c) 2018 Samsung Electronics Co., Ltd. All rights reserved.
+  *
+  * This library is free software; you can redistribute it and/or
+- * modify it under the terms of the GNU Lesser General Public
++ * modify it under the terms of the GNU General Public
+  * License as published by the Free Software Foundation; either
+- * version 2.1 of the License, or (at your option) any later version.
++ * version 3 of the License, or (at your option) any later version.
+  *
+  * This library is distributed in the hope that it will be useful,
+  * but WITHOUT ANY WARRANTY; without even the implied warranty of
+  * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+- * Lesser General Public License for more details.
++ * General Public License for more details.
+  *
+- * You should have received a copy of the GNU Lesser General Public
++ * You should have received a copy of the GNU General Public
+  * License along with this library; if not, write to the Free Software
+  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301 USA
++ */
++
++/* Oritwig distribution notice, 2026-10-01.
++ * GNU license references above were converted to GPLv3 under
++ * LGPL-2.1 section 3. Copyrights and algorithm bodies are unchanged.
++ * See NOTICE.txt and provenance/license-only.patch.
+  */
+ 
+ #include "vpath.h"
+--- a/vendor/rlottie/src/vector/vpath.h
++++ b/vendor/rlottie/src/vector/vpath.h
+@@ -2,18 +2,24 @@
+  * Copyright (c) 2018 Samsung Electronics Co., Ltd. All rights reserved.
+  * 
+  * This library is free software; you can redistribute it and/or
+- * modify it under the terms of the GNU Lesser General Public
++ * modify it under the terms of the GNU General Public
+  * License as published by the Free Software Foundation; either
+- * version 2.1 of the License, or (at your option) any later version.
++ * version 3 of the License, or (at your option) any later version.
+  * 
+  * This library is distributed in the hope that it will be useful,
+  * but WITHOUT ANY WARRANTY; without even the implied warranty of
+  * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+- * Lesser General Public License for more details.
++ * General Public License for more details.
+  * 
+- * You should have received a copy of the GNU Lesser General Public
++ * You should have received a copy of the GNU General Public
+  * License along with this library; if not, write to the Free Software
+  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301  USA
++ */
++
++/* Oritwig distribution notice, 2026-10-01.
++ * GNU license references above were converted to GPLv3 under
++ * LGPL-2.1 section 3. Copyrights and algorithm bodies are unchanged.
++ * See NOTICE.txt and provenance/license-only.patch.
+  */
+ 
+ #ifndef VPATH_H
+--- a/vendor/rlottie/src/vector/vpathmesure.cpp
++++ b/vendor/rlottie/src/vector/vpathmesure.cpp
+@@ -2,18 +2,24 @@
+  * Copyright (c) 2018 Samsung Electronics Co., Ltd. All rights reserved.
+  *
+  * This library is free software; you can redistribute it and/or
+- * modify it under the terms of the GNU Lesser General Public
++ * modify it under the terms of the GNU General Public
+  * License as published by the Free Software Foundation; either
+- * version 2.1 of the License, or (at your option) any later version.
++ * version 3 of the License, or (at your option) any later version.
+  *
+  * This library is distributed in the hope that it will be useful,
+  * but WITHOUT ANY WARRANTY; without even the implied warranty of
+  * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+- * Lesser General Public License for more details.
++ * General Public License for more details.
+  *
+- * You should have received a copy of the GNU Lesser General Public
++ * You should have received a copy of the GNU General Public
+  * License along with this library; if not, write to the Free Software
+  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301 USA
++ */
++
++/* Oritwig distribution notice, 2026-10-01.
++ * GNU license references above were converted to GPLv3 under
++ * LGPL-2.1 section 3. Copyrights and algorithm bodies are unchanged.
++ * See NOTICE.txt and provenance/license-only.patch.
+  */
+ 
+ #include "vpathmesure.h"
+--- a/vendor/rlottie/src/vector/vpathmesure.h
++++ b/vendor/rlottie/src/vector/vpathmesure.h
+@@ -2,18 +2,24 @@
+  * Copyright (c) 2018 Samsung Electronics Co., Ltd. All rights reserved.
+  * 
+  * This library is free software; you can redistribute it and/or
+- * modify it under the terms of the GNU Lesser General Public
++ * modify it under the terms of the GNU General Public
+  * License as published by the Free Software Foundation; either
+- * version 2.1 of the License, or (at your option) any later version.
++ * version 3 of the License, or (at your option) any later version.
+  * 
+  * This library is distributed in the hope that it will be useful,
+  * but WITHOUT ANY WARRANTY; without even the implied warranty of
+  * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+- * Lesser General Public License for more details.
++ * General Public License for more details.
+  * 
+- * You should have received a copy of the GNU Lesser General Public
++ * You should have received a copy of the GNU General Public
+  * License along with this library; if not, write to the Free Software
+  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301  USA
++ */
++
++/* Oritwig distribution notice, 2026-10-01.
++ * GNU license references above were converted to GPLv3 under
++ * LGPL-2.1 section 3. Copyrights and algorithm bodies are unchanged.
++ * See NOTICE.txt and provenance/license-only.patch.
+  */
+ 
+ #ifndef VPATHMESURE_H
+--- a/vendor/rlottie/src/vector/vpoint.h
++++ b/vendor/rlottie/src/vector/vpoint.h
+@@ -2,18 +2,24 @@
+  * Copyright (c) 2018 Samsung Electronics Co., Ltd. All rights reserved.
+  * 
+  * This library is free software; you can redistribute it and/or
+- * modify it under the terms of the GNU Lesser General Public
++ * modify it under the terms of the GNU General Public
+  * License as published by the Free Software Foundation; either
+- * version 2.1 of the License, or (at your option) any later version.
++ * version 3 of the License, or (at your option) any later version.
+  * 
+  * This library is distributed in the hope that it will be useful,
+  * but WITHOUT ANY WARRANTY; without even the implied warranty of
+  * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+- * Lesser General Public License for more details.
++ * General Public License for more details.
+  * 
+- * You should have received a copy of the GNU Lesser General Public
++ * You should have received a copy of the GNU General Public
+  * License along with this library; if not, write to the Free Software
+  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301  USA
++ */
++
++/* Oritwig distribution notice, 2026-10-01.
++ * GNU license references above were converted to GPLv3 under
++ * LGPL-2.1 section 3. Copyrights and algorithm bodies are unchanged.
++ * See NOTICE.txt and provenance/license-only.patch.
+  */
+ 
+ #ifndef VPOINT_H
+--- a/vendor/rlottie/src/vector/vraster.cpp
++++ b/vendor/rlottie/src/vector/vraster.cpp
+@@ -2,18 +2,24 @@
+  * Copyright (c) 2018 Samsung Electronics Co., Ltd. All rights reserved.
+  *
+  * This library is free software; you can redistribute it and/or
+- * modify it under the terms of the GNU Lesser General Public
++ * modify it under the terms of the GNU General Public
+  * License as published by the Free Software Foundation; either
+- * version 2.1 of the License, or (at your option) any later version.
++ * version 3 of the License, or (at your option) any later version.
+  *
+  * This library is distributed in the hope that it will be useful,
+  * but WITHOUT ANY WARRANTY; without even the implied warranty of
+  * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+- * Lesser General Public License for more details.
++ * General Public License for more details.
+  *
+- * You should have received a copy of the GNU Lesser General Public
++ * You should have received a copy of the GNU General Public
+  * License along with this library; if not, write to the Free Software
+  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301 USA
++ */
++
++/* Oritwig distribution notice, 2026-10-01.
++ * GNU license references above were converted to GPLv3 under
++ * LGPL-2.1 section 3. Copyrights and algorithm bodies are unchanged.
++ * See NOTICE.txt and provenance/license-only.patch.
+  */
+ 
+ #include "vraster.h"
+--- a/vendor/rlottie/src/vector/vraster.h
++++ b/vendor/rlottie/src/vector/vraster.h
+@@ -2,18 +2,24 @@
+  * Copyright (c) 2018 Samsung Electronics Co., Ltd. All rights reserved.
+  * 
+  * This library is free software; you can redistribute it and/or
+- * modify it under the terms of the GNU Lesser General Public
++ * modify it under the terms of the GNU General Public
+  * License as published by the Free Software Foundation; either
+- * version 2.1 of the License, or (at your option) any later version.
++ * version 3 of the License, or (at your option) any later version.
+  * 
+  * This library is distributed in the hope that it will be useful,
+  * but WITHOUT ANY WARRANTY; without even the implied warranty of
+  * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+- * Lesser General Public License for more details.
++ * General Public License for more details.
+  * 
+- * You should have received a copy of the GNU Lesser General Public
++ * You should have received a copy of the GNU General Public
+  * License along with this library; if not, write to the Free Software
+  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301  USA
++ */
++
++/* Oritwig distribution notice, 2026-10-01.
++ * GNU license references above were converted to GPLv3 under
++ * LGPL-2.1 section 3. Copyrights and algorithm bodies are unchanged.
++ * See NOTICE.txt and provenance/license-only.patch.
+  */
+ 
+ #ifndef VRASTER_H
+--- a/vendor/rlottie/src/vector/vrect.cpp
++++ b/vendor/rlottie/src/vector/vrect.cpp
+@@ -2,18 +2,24 @@
+  * Copyright (c) 2018 Samsung Electronics Co., Ltd. All rights reserved.
+  *
+  * This library is free software; you can redistribute it and/or
+- * modify it under the terms of the GNU Lesser General Public
++ * modify it under the terms of the GNU General Public
+  * License as published by the Free Software Foundation; either
+- * version 2.1 of the License, or (at your option) any later version.
++ * version 3 of the License, or (at your option) any later version.
+  *
+  * This library is distributed in the hope that it will be useful,
+  * but WITHOUT ANY WARRANTY; without even the implied warranty of
+  * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+- * Lesser General Public License for more details.
++ * General Public License for more details.
+  *
+- * You should have received a copy of the GNU Lesser General Public
++ * You should have received a copy of the GNU General Public
+  * License along with this library; if not, write to the Free Software
+  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301 USA
++ */
++
++/* Oritwig distribution notice, 2026-10-01.
++ * GNU license references above were converted to GPLv3 under
++ * LGPL-2.1 section 3. Copyrights and algorithm bodies are unchanged.
++ * See NOTICE.txt and provenance/license-only.patch.
+  */
+ 
+ #include "vrect.h"
+--- a/vendor/rlottie/src/vector/vrect.h
++++ b/vendor/rlottie/src/vector/vrect.h
+@@ -2,18 +2,24 @@
+  * Copyright (c) 2018 Samsung Electronics Co., Ltd. All rights reserved.
+  * 
+  * This library is free software; you can redistribute it and/or
+- * modify it under the terms of the GNU Lesser General Public
++ * modify it under the terms of the GNU General Public
+  * License as published by the Free Software Foundation; either
+- * version 2.1 of the License, or (at your option) any later version.
++ * version 3 of the License, or (at your option) any later version.
+  * 
+  * This library is distributed in the hope that it will be useful,
+  * but WITHOUT ANY WARRANTY; without even the implied warranty of
+  * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+- * Lesser General Public License for more details.
++ * General Public License for more details.
+  * 
+- * You should have received a copy of the GNU Lesser General Public
++ * You should have received a copy of the GNU General Public
+  * License along with this library; if not, write to the Free Software
+  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301  USA
++ */
++
++/* Oritwig distribution notice, 2026-10-01.
++ * GNU license references above were converted to GPLv3 under
++ * LGPL-2.1 section 3. Copyrights and algorithm bodies are unchanged.
++ * See NOTICE.txt and provenance/license-only.patch.
+  */
+ 
+ #ifndef VRECT_H
+--- a/vendor/rlottie/src/vector/vrle.cpp
++++ b/vendor/rlottie/src/vector/vrle.cpp
+@@ -2,18 +2,24 @@
+  * Copyright (c) 2018 Samsung Electronics Co., Ltd. All rights reserved.
+  *
+  * This library is free software; you can redistribute it and/or
+- * modify it under the terms of the GNU Lesser General Public
++ * modify it under the terms of the GNU General Public
+  * License as published by the Free Software Foundation; either
+- * version 2.1 of the License, or (at your option) any later version.
++ * version 3 of the License, or (at your option) any later version.
+  *
+  * This library is distributed in the hope that it will be useful,
+  * but WITHOUT ANY WARRANTY; without even the implied warranty of
+  * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+- * Lesser General Public License for more details.
++ * General Public License for more details.
+  *
+- * You should have received a copy of the GNU Lesser General Public
++ * You should have received a copy of the GNU General Public
+  * License along with this library; if not, write to the Free Software
+  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301 USA
++ */
++
++/* Oritwig distribution notice, 2026-10-01.
++ * GNU license references above were converted to GPLv3 under
++ * LGPL-2.1 section 3. Copyrights and algorithm bodies are unchanged.
++ * See NOTICE.txt and provenance/license-only.patch.
+  */
+ 
+ #include "vrle.h"
+--- a/vendor/rlottie/src/vector/vrle.h
++++ b/vendor/rlottie/src/vector/vrle.h
+@@ -2,18 +2,24 @@
+  * Copyright (c) 2018 Samsung Electronics Co., Ltd. All rights reserved.
+  * 
+  * This library is free software; you can redistribute it and/or
+- * modify it under the terms of the GNU Lesser General Public
++ * modify it under the terms of the GNU General Public
+  * License as published by the Free Software Foundation; either
+- * version 2.1 of the License, or (at your option) any later version.
++ * version 3 of the License, or (at your option) any later version.
+  * 
+  * This library is distributed in the hope that it will be useful,
+  * but WITHOUT ANY WARRANTY; without even the implied warranty of
+  * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+- * Lesser General Public License for more details.
++ * General Public License for more details.
+  * 
+- * You should have received a copy of the GNU Lesser General Public
++ * You should have received a copy of the GNU General Public
+  * License along with this library; if not, write to the Free Software
+  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301  USA
++ */
++
++/* Oritwig distribution notice, 2026-10-01.
++ * GNU license references above were converted to GPLv3 under
++ * LGPL-2.1 section 3. Copyrights and algorithm bodies are unchanged.
++ * See NOTICE.txt and provenance/license-only.patch.
+  */
+ 
+ #ifndef VRLE_H
+--- a/vendor/rlottie/src/vector/vstackallocator.h
++++ b/vendor/rlottie/src/vector/vstackallocator.h
+@@ -2,18 +2,24 @@
+  * Copyright (c) 2018 Samsung Electronics Co., Ltd. All rights reserved.
+  * 
+  * This library is free software; you can redistribute it and/or
+- * modify it under the terms of the GNU Lesser General Public
++ * modify it under the terms of the GNU General Public
+  * License as published by the Free Software Foundation; either
+- * version 2.1 of the License, or (at your option) any later version.
++ * version 3 of the License, or (at your option) any later version.
+  * 
+  * This library is distributed in the hope that it will be useful,
+  * but WITHOUT ANY WARRANTY; without even the implied warranty of
+  * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+- * Lesser General Public License for more details.
++ * General Public License for more details.
+  * 
+- * You should have received a copy of the GNU Lesser General Public
++ * You should have received a copy of the GNU General Public
+  * License along with this library; if not, write to the Free Software
+  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301  USA
++ */
++
++/* Oritwig distribution notice, 2026-10-01.
++ * GNU license references above were converted to GPLv3 under
++ * LGPL-2.1 section 3. Copyrights and algorithm bodies are unchanged.
++ * See NOTICE.txt and provenance/license-only.patch.
+  */
+ 
+ #ifndef VSTACK_ALLOCATOR_H
+--- a/vendor/rlottie/src/vector/vtaskqueue.h
++++ b/vendor/rlottie/src/vector/vtaskqueue.h
+@@ -2,18 +2,24 @@
+  * Copyright (c) 2018 Samsung Electronics Co., Ltd. All rights reserved.
+  * 
+  * This library is free software; you can redistribute it and/or
+- * modify it under the terms of the GNU Lesser General Public
++ * modify it under the terms of the GNU General Public
+  * License as published by the Free Software Foundation; either
+- * version 2.1 of the License, or (at your option) any later version.
++ * version 3 of the License, or (at your option) any later version.
+  * 
+  * This library is distributed in the hope that it will be useful,
+  * but WITHOUT ANY WARRANTY; without even the implied warranty of
+  * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+- * Lesser General Public License for more details.
++ * General Public License for more details.
+  * 
+- * You should have received a copy of the GNU Lesser General Public
++ * You should have received a copy of the GNU General Public
+  * License along with this library; if not, write to the Free Software
+  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301  USA
++ */
++
++/* Oritwig distribution notice, 2026-10-01.
++ * GNU license references above were converted to GPLv3 under
++ * LGPL-2.1 section 3. Copyrights and algorithm bodies are unchanged.
++ * See NOTICE.txt and provenance/license-only.patch.
+  */
+ 
+ #ifndef VTASKQUEUE_H
+--- a/vendor/rlottie/inc/rlottie.h
++++ b/vendor/rlottie/inc/rlottie.h
+@@ -2,18 +2,24 @@
+  * Copyright (c) 2018 Samsung Electronics Co., Ltd. All rights reserved.
+  * 
+  * This library is free software; you can redistribute it and/or
+- * modify it under the terms of the GNU Lesser General Public
++ * modify it under the terms of the GNU General Public
+  * License as published by the Free Software Foundation; either
+- * version 2.1 of the License, or (at your option) any later version.
++ * version 3 of the License, or (at your option) any later version.
+  * 
+  * This library is distributed in the hope that it will be useful,
+  * but WITHOUT ANY WARRANTY; without even the implied warranty of
+  * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+- * Lesser General Public License for more details.
++ * General Public License for more details.
+  * 
+- * You should have received a copy of the GNU Lesser General Public
++ * You should have received a copy of the GNU General Public
+  * License along with this library; if not, write to the Free Software
+  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301  USA
++ */
++
++/* Oritwig distribution notice, 2026-10-01.
++ * GNU license references above were converted to GPLv3 under
++ * LGPL-2.1 section 3. Copyrights and algorithm bodies are unchanged.
++ * See NOTICE.txt and provenance/license-only.patch.
+  */
+ 
+ #ifndef _RLOTTIE_H_
+--- a/vendor/rlottie/inc/rlottie_capi.h
++++ b/vendor/rlottie/inc/rlottie_capi.h
+@@ -2,18 +2,24 @@
+  * Copyright (c) 2018 Samsung Electronics Co., Ltd. All rights reserved.
+  * 
+  * This library is free software; you can redistribute it and/or
+- * modify it under the terms of the GNU Lesser General Public
++ * modify it under the terms of the GNU General Public
+  * License as published by the Free Software Foundation; either
+- * version 2.1 of the License, or (at your option) any later version.
++ * version 3 of the License, or (at your option) any later version.
+  * 
+  * This library is distributed in the hope that it will be useful,
+  * but WITHOUT ANY WARRANTY; without even the implied warranty of
+  * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+- * Lesser General Public License for more details.
++ * General Public License for more details.
+  * 
+- * You should have received a copy of the GNU Lesser General Public
++ * You should have received a copy of the GNU General Public
+  * License along with this library; if not, write to the Free Software
+  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301  USA
++ */
++
++/* Oritwig distribution notice, 2026-10-01.
++ * GNU license references above were converted to GPLv3 under
++ * LGPL-2.1 section 3. Copyrights and algorithm bodies are unchanged.
++ * See NOTICE.txt and provenance/license-only.patch.
+  */
+ 
+ #ifndef _RLOTTIE_CAPI_H_
+--- a/vendor/rlottie/inc/rlottiecommon.h
++++ b/vendor/rlottie/inc/rlottiecommon.h
+@@ -2,18 +2,24 @@
+  * Copyright (c) 2018 Samsung Electronics Co., Ltd. All rights reserved.
+  * 
+  * This library is free software; you can redistribute it and/or
+- * modify it under the terms of the GNU Lesser General Public
++ * modify it under the terms of the GNU General Public
+  * License as published by the Free Software Foundation; either
+- * version 2.1 of the License, or (at your option) any later version.
++ * version 3 of the License, or (at your option) any later version.
+  * 
+  * This library is distributed in the hope that it will be useful,
+  * but WITHOUT ANY WARRANTY; without even the implied warranty of
+  * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+- * Lesser General Public License for more details.
++ * General Public License for more details.
+  * 
+- * You should have received a copy of the GNU Lesser General Public
++ * You should have received a copy of the GNU General Public
+  * License along with this library; if not, write to the Free Software
+  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301  USA
++ */
++
++/* Oritwig distribution notice, 2026-10-01.
++ * GNU license references above were converted to GPLv3 under
++ * LGPL-2.1 section 3. Copyrights and algorithm bodies are unchanged.
++ * See NOTICE.txt and provenance/license-only.patch.
+  */
+ 
+ #ifndef _RLOTTIE_COMMON_H_

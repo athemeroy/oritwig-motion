@@ -1,0 +1,1039 @@
+{
+  "upstream_pin": "00a9454aeaa5970884e13abc4ec6c42a125742d0",
+  "distribution": "GPLv3 combined work; component notices retained",
+  "date": "2026-10-01",
+  "files": [
+    {
+      "path": "vendor/rlottie/src/lottie/lottieanimation.cpp",
+      "original_git_blob": "905f0f659323cd70e608f86f7dd911282b7c56f9",
+      "original_sha256": "c222295593c46bc6431da5aa30bdcdc9f46fc0f53a48d3ec3b1654d1487f9dd2",
+      "original_url": "https://raw.githubusercontent.com/DrKLO/Telegram/00a9454aeaa5970884e13abc4ec6c42a125742d0/TMessagesProj/jni/rlottie/src/lottie/lottieanimation.cpp",
+      "distribution_sha256": "3fcac098adc63a81e6be93652871014bde5ce417568550c67ccda81f43374531",
+      "changes": [
+        "license: LGPL-2.1 section 3 conversion to GPLv3"
+      ]
+    },
+    {
+      "path": "vendor/rlottie/src/lottie/lottieitem.cpp",
+      "original_git_blob": "3221c246d5b5f05824dc0ff714a2de033d39c364",
+      "original_sha256": "478761fa92c2c20ad1e4e866e05c0cb528c07f6eed84478d1c2bed6a436c037e",
+      "original_url": "https://raw.githubusercontent.com/DrKLO/Telegram/00a9454aeaa5970884e13abc4ec6c42a125742d0/TMessagesProj/jni/rlottie/src/lottie/lottieitem.cpp",
+      "distribution_sha256": "d0471e3dc678859ea09b17647b102f99229b566252dec3b7b756f88355967063",
+      "changes": [
+        "license: LGPL-2.1 section 3 conversion to GPLv3"
+      ]
+    },
+    {
+      "path": "vendor/rlottie/src/lottie/lottieitem.h",
+      "original_git_blob": "2450b4a2339f1e902c500e0637b07b2067d292c8",
+      "original_sha256": "1e46d4c1f695a9fcdd5eab6abeb54865ac78c88619c4733d88425381cd59bcf8",
+      "original_url": "https://raw.githubusercontent.com/DrKLO/Telegram/00a9454aeaa5970884e13abc4ec6c42a125742d0/TMessagesProj/jni/rlottie/src/lottie/lottieitem.h",
+      "distribution_sha256": "9825168a25fc31549d308e5d2b05a91b25eb60131d4b97af573f1e55ecc35e6f",
+      "changes": [
+        "license: LGPL-2.1 section 3 conversion to GPLv3"
+      ]
+    },
+    {
+      "path": "vendor/rlottie/src/lottie/lottiekeypath.cpp",
+      "original_git_blob": "e8b6c6aefc334d93f3a7564a3c4508aa9a18e87f",
+      "original_sha256": "473a7030d0f821255131eef96d50b90bb877cde0cc5b6213fa85ef7b745edf94",
+      "original_url": "https://raw.githubusercontent.com/DrKLO/Telegram/00a9454aeaa5970884e13abc4ec6c42a125742d0/TMessagesProj/jni/rlottie/src/lottie/lottiekeypath.cpp",
+      "distribution_sha256": "473a7030d0f821255131eef96d50b90bb877cde0cc5b6213fa85ef7b745edf94",
+      "changes": []
+    },
+    {
+      "path": "vendor/rlottie/src/lottie/lottiekeypath.h",
+      "original_git_blob": "527788f73cfdd1e87a41b1ef9894f5db3d220b05",
+      "original_sha256": "3c258ba94f02200481c08feb411ae7a644cc3a7b157806912f9187f45a947e15",
+      "original_url": "https://raw.githubusercontent.com/DrKLO/Telegram/00a9454aeaa5970884e13abc4ec6c42a125742d0/TMessagesProj/jni/rlottie/src/lottie/lottiekeypath.h",
+      "distribution_sha256": "50fc68f695fb16b76e346ccc9dd297429756100080c30e2dc98344544abb0460",
+      "changes": [
+        "license: LGPL-2.1 section 3 conversion to GPLv3"
+      ]
+    },
+    {
+      "path": "vendor/rlottie/src/lottie/lottieloader.cpp",
+      "original_git_blob": "b9f50f64d9c213f77b0d64f7c86c703e2a262b77",
+      "original_sha256": "ba7163c2aca57fec28985b3abba79e06d7479e6a3eaf4a6a53a4bb31380f5854",
+      "original_url": "https://raw.githubusercontent.com/DrKLO/Telegram/00a9454aeaa5970884e13abc4ec6c42a125742d0/TMessagesProj/jni/rlottie/src/lottie/lottieloader.cpp",
+      "distribution_sha256": "6e2d495f90ba6b5e8e2fe6e1574025c9de6e209f0e6d082a36229d1c33445ca4",
+      "changes": [
+        "license: LGPL-2.1 section 3 conversion to GPLv3"
+      ]
+    },
+    {
+      "path": "vendor/rlottie/src/lottie/lottieloader.h",
+      "original_git_blob": "11eae03d83be7aff66731afda0b1a036f9ea38f2",
+      "original_sha256": "454b1ff597ae655b0543b90f4c16d7d49438541d659a77f1cae2dc8a20b4821e",
+      "original_url": "https://raw.githubusercontent.com/DrKLO/Telegram/00a9454aeaa5970884e13abc4ec6c42a125742d0/TMessagesProj/jni/rlottie/src/lottie/lottieloader.h",
+      "distribution_sha256": "7ed954d5179fb3d38556a41105b9b1d799a570719710868e1c72057c9d986305",
+      "changes": [
+        "license: LGPL-2.1 section 3 conversion to GPLv3"
+      ]
+    },
+    {
+      "path": "vendor/rlottie/src/lottie/lottiemodel.cpp",
+      "original_git_blob": "aa1eac1607280c75efdfc66329473ee0262e9f0a",
+      "original_sha256": "2c1955faf384357baecfb034ffe09cac5fb680f731713af537ebc054889b5c6d",
+      "original_url": "https://raw.githubusercontent.com/DrKLO/Telegram/00a9454aeaa5970884e13abc4ec6c42a125742d0/TMessagesProj/jni/rlottie/src/lottie/lottiemodel.cpp",
+      "distribution_sha256": "45be63ac987fa5892626dcd4218eeb0ed6b3280f7c065807a3eb2e486c46b6bf",
+      "changes": [
+        "license: LGPL-2.1 section 3 conversion to GPLv3"
+      ]
+    },
+    {
+      "path": "vendor/rlottie/src/lottie/lottiemodel.h",
+      "original_git_blob": "b482b58e98e926c360580f1eab92db5b15f0c85f",
+      "original_sha256": "00567338c63cdcf2540d5d775e49f10dec1cfc573ce936be4c925d3bc942b246",
+      "original_url": "https://raw.githubusercontent.com/DrKLO/Telegram/00a9454aeaa5970884e13abc4ec6c42a125742d0/TMessagesProj/jni/rlottie/src/lottie/lottiemodel.h",
+      "distribution_sha256": "8872523ef8be7a63854c2e7dd4ece270674ff99015c5022c92f6ce6754f27925",
+      "changes": [
+        "license: LGPL-2.1 section 3 conversion to GPLv3"
+      ]
+    },
+    {
+      "path": "vendor/rlottie/src/lottie/lottieparser.cpp",
+      "original_git_blob": "5d17aa8cb7c41b734316896d1e12c69633326e80",
+      "original_sha256": "9e885bb43480b0f9dc6559006473665a726719157c537c9b9fa3d80491b4d77e",
+      "original_url": "https://raw.githubusercontent.com/DrKLO/Telegram/00a9454aeaa5970884e13abc4ec6c42a125742d0/TMessagesProj/jni/rlottie/src/lottie/lottieparser.cpp",
+      "distribution_sha256": "dac021492428a304b7113bc99f5798d4110597d25b4627e742fdad9cec8235c5",
+      "changes": [
+        "integration: remove unused tgnet/FileLog.h include",
+        "license: LGPL-2.1 section 3 conversion to GPLv3"
+      ]
+    },
+    {
+      "path": "vendor/rlottie/src/lottie/lottieparser.h",
+      "original_git_blob": "aa466d587a5507be3f57f2ee41fa971902d2e543",
+      "original_sha256": "75762bde3c88489c3388f91de3ab0f9ae193455987396c86f07c8a40b1e8890c",
+      "original_url": "https://raw.githubusercontent.com/DrKLO/Telegram/00a9454aeaa5970884e13abc4ec6c42a125742d0/TMessagesProj/jni/rlottie/src/lottie/lottieparser.h",
+      "distribution_sha256": "ed21efd4c9318f4e77b22c20cf67e8557a330f0556595c41f26fbbe955afbf09",
+      "changes": [
+        "license: LGPL-2.1 section 3 conversion to GPLv3"
+      ]
+    },
+    {
+      "path": "vendor/rlottie/src/lottie/lottieproxymodel.cpp",
+      "original_git_blob": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "original_url": "https://raw.githubusercontent.com/DrKLO/Telegram/00a9454aeaa5970884e13abc4ec6c42a125742d0/TMessagesProj/jni/rlottie/src/lottie/lottieproxymodel.cpp",
+      "distribution_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "changes": []
+    },
+    {
+      "path": "vendor/rlottie/src/lottie/lottieproxymodel.h",
+      "original_git_blob": "b26c20531f1d81ef08f11bd437d71aa2ad2738b0",
+      "original_sha256": "ea38fc427f42e2b2f48c5f9b4df25531c15dfc768e68e32f6300ba67fc1fb129",
+      "original_url": "https://raw.githubusercontent.com/DrKLO/Telegram/00a9454aeaa5970884e13abc4ec6c42a125742d0/TMessagesProj/jni/rlottie/src/lottie/lottieproxymodel.h",
+      "distribution_sha256": "8421cea9019acb44b423ee88c736b3be53d1e72e88435d0cf7840dbb907a160d",
+      "changes": [
+        "license: LGPL-2.1 section 3 conversion to GPLv3"
+      ]
+    },
+    {
+      "path": "vendor/rlottie/src/lottie/rapidjson/allocators.h",
+      "original_git_blob": "cc67c8971323c059df70eb47bd7b767f0f84a028",
+      "original_sha256": "af8df398d1863a1d300e26dcc1fea813143ca11c12f13242c2eccad558f85884",
+      "original_url": "https://raw.githubusercontent.com/DrKLO/Telegram/00a9454aeaa5970884e13abc4ec6c42a125742d0/TMessagesProj/jni/rlottie/src/lottie/rapidjson/allocators.h",
+      "distribution_sha256": "af8df398d1863a1d300e26dcc1fea813143ca11c12f13242c2eccad558f85884",
+      "changes": []
+    },
+    {
+      "path": "vendor/rlottie/src/lottie/rapidjson/cursorstreamwrapper.h",
+      "original_git_blob": "52c11a7c01d7d92a8c3a1a61913750983c8fde3e",
+      "original_sha256": "f37c106e59e042d4ebefe00715f33d0599a3c6f028737c91cad4d017846814ad",
+      "original_url": "https://raw.githubusercontent.com/DrKLO/Telegram/00a9454aeaa5970884e13abc4ec6c42a125742d0/TMessagesProj/jni/rlottie/src/lottie/rapidjson/cursorstreamwrapper.h",
+      "distribution_sha256": "f37c106e59e042d4ebefe00715f33d0599a3c6f028737c91cad4d017846814ad",
+      "changes": []
+    },
+    {
+      "path": "vendor/rlottie/src/lottie/rapidjson/document.h",
+      "original_git_blob": "d1b90eb0b466d40d38ec0b541d4d0b5733c8dbd9",
+      "original_sha256": "e26772ed7bdc9693469d8b6419c5eff8afaf2ff310746b526c83c92d801c0d89",
+      "original_url": "https://raw.githubusercontent.com/DrKLO/Telegram/00a9454aeaa5970884e13abc4ec6c42a125742d0/TMessagesProj/jni/rlottie/src/lottie/rapidjson/document.h",
+      "distribution_sha256": "e26772ed7bdc9693469d8b6419c5eff8afaf2ff310746b526c83c92d801c0d89",
+      "changes": []
+    },
+    {
+      "path": "vendor/rlottie/src/lottie/rapidjson/encodedstream.h",
+      "original_git_blob": "223601c0599b4b32a8dd45e8bab6348bcc0d44f2",
+      "original_sha256": "ac15a6f9b872f129d019947505c212db502dcbdb9d9c8806fef8fc2afe3922a7",
+      "original_url": "https://raw.githubusercontent.com/DrKLO/Telegram/00a9454aeaa5970884e13abc4ec6c42a125742d0/TMessagesProj/jni/rlottie/src/lottie/rapidjson/encodedstream.h",
+      "distribution_sha256": "ac15a6f9b872f129d019947505c212db502dcbdb9d9c8806fef8fc2afe3922a7",
+      "changes": []
+    },
+    {
+      "path": "vendor/rlottie/src/lottie/rapidjson/encodings.h",
+      "original_git_blob": "0b2446795015884d82c3efe6174618617652c280",
+      "original_sha256": "e83626ecf17f424c3979ff850ca188721e9ea96d9d5973f47302d5e5ab07f6b0",
+      "original_url": "https://raw.githubusercontent.com/DrKLO/Telegram/00a9454aeaa5970884e13abc4ec6c42a125742d0/TMessagesProj/jni/rlottie/src/lottie/rapidjson/encodings.h",
+      "distribution_sha256": "e83626ecf17f424c3979ff850ca188721e9ea96d9d5973f47302d5e5ab07f6b0",
+      "changes": []
+    },
+    {
+      "path": "vendor/rlottie/src/lottie/rapidjson/error/en.h",
+      "original_git_blob": "2db838bff2399dd02deeadfdbf3af7d008588f63",
+      "original_sha256": "5d040327a5b7b50367f5862fe88e9d742bcefcff52450279bfebb89a30072d2d",
+      "original_url": "https://raw.githubusercontent.com/DrKLO/Telegram/00a9454aeaa5970884e13abc4ec6c42a125742d0/TMessagesProj/jni/rlottie/src/lottie/rapidjson/error/en.h",
+      "distribution_sha256": "5d040327a5b7b50367f5862fe88e9d742bcefcff52450279bfebb89a30072d2d",
+      "changes": []
+    },
+    {
+      "path": "vendor/rlottie/src/lottie/rapidjson/error/error.h",
+      "original_git_blob": "9311d2f03bffebccce4cf1b96fb08d8c14b5c677",
+      "original_sha256": "85bc3e758f3463971eb85e0c4639bc22168863227dd6fc38940fc34e533bf472",
+      "original_url": "https://raw.githubusercontent.com/DrKLO/Telegram/00a9454aeaa5970884e13abc4ec6c42a125742d0/TMessagesProj/jni/rlottie/src/lottie/rapidjson/error/error.h",
+      "distribution_sha256": "85bc3e758f3463971eb85e0c4639bc22168863227dd6fc38940fc34e533bf472",
+      "changes": []
+    },
+    {
+      "path": "vendor/rlottie/src/lottie/rapidjson/filereadstream.h",
+      "original_git_blob": "6b343707ade08dcef1023b4b22a492566d29c795",
+      "original_sha256": "2d4b395866a0b64dc168e7eb4dbcb8a2f71f411c054cf02ae57be6418aa71e61",
+      "original_url": "https://raw.githubusercontent.com/DrKLO/Telegram/00a9454aeaa5970884e13abc4ec6c42a125742d0/TMessagesProj/jni/rlottie/src/lottie/rapidjson/filereadstream.h",
+      "distribution_sha256": "2d4b395866a0b64dc168e7eb4dbcb8a2f71f411c054cf02ae57be6418aa71e61",
+      "changes": []
+    },
+    {
+      "path": "vendor/rlottie/src/lottie/rapidjson/filewritestream.h",
+      "original_git_blob": "8b48fee197c43a7d1afd37ddc9c72887dbefd24f",
+      "original_sha256": "c306b379af7957a0d21bfa8f798f48e67cd78ec96fcddd79d008f1ef699dc34a",
+      "original_url": "https://raw.githubusercontent.com/DrKLO/Telegram/00a9454aeaa5970884e13abc4ec6c42a125742d0/TMessagesProj/jni/rlottie/src/lottie/rapidjson/filewritestream.h",
+      "distribution_sha256": "c306b379af7957a0d21bfa8f798f48e67cd78ec96fcddd79d008f1ef699dc34a",
+      "changes": []
+    },
+    {
+      "path": "vendor/rlottie/src/lottie/rapidjson/fwd.h",
+      "original_git_blob": "e8104e841bcdcaca0bd415c208a746ed7d806ab5",
+      "original_sha256": "06a7b142b7b0e1d2b773e657bbafd9b861e4b0a17fadf49a806d8833ac6d557e",
+      "original_url": "https://raw.githubusercontent.com/DrKLO/Telegram/00a9454aeaa5970884e13abc4ec6c42a125742d0/TMessagesProj/jni/rlottie/src/lottie/rapidjson/fwd.h",
+      "distribution_sha256": "06a7b142b7b0e1d2b773e657bbafd9b861e4b0a17fadf49a806d8833ac6d557e",
+      "changes": []
+    },
+    {
+      "path": "vendor/rlottie/src/lottie/rapidjson/internal/biginteger.h",
+      "original_git_blob": "a31c8a88d6eb429dd8f759724d2cf50fd06dd03c",
+      "original_sha256": "b311ad68b7b1f971d87f10ad636994377ff7f51f0205887b8df8bb0285dcc859",
+      "original_url": "https://raw.githubusercontent.com/DrKLO/Telegram/00a9454aeaa5970884e13abc4ec6c42a125742d0/TMessagesProj/jni/rlottie/src/lottie/rapidjson/internal/biginteger.h",
+      "distribution_sha256": "b311ad68b7b1f971d87f10ad636994377ff7f51f0205887b8df8bb0285dcc859",
+      "changes": []
+    },
+    {
+      "path": "vendor/rlottie/src/lottie/rapidjson/internal/diyfp.h",
+      "original_git_blob": "b6c2cf5618d4528d9bd22b9c3b37e87fa988ab03",
+      "original_sha256": "b7086c604d1e24a64e7a83fb23690e34e28397e82e80f29de115a522e498d806",
+      "original_url": "https://raw.githubusercontent.com/DrKLO/Telegram/00a9454aeaa5970884e13abc4ec6c42a125742d0/TMessagesProj/jni/rlottie/src/lottie/rapidjson/internal/diyfp.h",
+      "distribution_sha256": "b7086c604d1e24a64e7a83fb23690e34e28397e82e80f29de115a522e498d806",
+      "changes": []
+    },
+    {
+      "path": "vendor/rlottie/src/lottie/rapidjson/internal/dtoa.h",
+      "original_git_blob": "bf2e9b2e59a4952c45925e9b77453de417c4b6f7",
+      "original_sha256": "77f2a85c791347e2df5823486651b7c64182b076522a0241bbb443646270d2d8",
+      "original_url": "https://raw.githubusercontent.com/DrKLO/Telegram/00a9454aeaa5970884e13abc4ec6c42a125742d0/TMessagesProj/jni/rlottie/src/lottie/rapidjson/internal/dtoa.h",
+      "distribution_sha256": "77f2a85c791347e2df5823486651b7c64182b076522a0241bbb443646270d2d8",
+      "changes": []
+    },
+    {
+      "path": "vendor/rlottie/src/lottie/rapidjson/internal/ieee754.h",
+      "original_git_blob": "c2684ba2a35ffa258645a5e88522b4fc706d2c6f",
+      "original_sha256": "7e4456bf81b86de2e4639cbf1a80d76f852978511e506c20d0acd79ecd31f7e1",
+      "original_url": "https://raw.githubusercontent.com/DrKLO/Telegram/00a9454aeaa5970884e13abc4ec6c42a125742d0/TMessagesProj/jni/rlottie/src/lottie/rapidjson/internal/ieee754.h",
+      "distribution_sha256": "7e4456bf81b86de2e4639cbf1a80d76f852978511e506c20d0acd79ecd31f7e1",
+      "changes": []
+    },
+    {
+      "path": "vendor/rlottie/src/lottie/rapidjson/internal/itoa.h",
+      "original_git_blob": "9b1c45cc1b4a883a7811e3b32ec5979ab99ed98e",
+      "original_sha256": "ab0b5d49d2671156463ba03c1cbbe32bd186d3220caec3ad2a9654ccc9955f12",
+      "original_url": "https://raw.githubusercontent.com/DrKLO/Telegram/00a9454aeaa5970884e13abc4ec6c42a125742d0/TMessagesProj/jni/rlottie/src/lottie/rapidjson/internal/itoa.h",
+      "distribution_sha256": "ab0b5d49d2671156463ba03c1cbbe32bd186d3220caec3ad2a9654ccc9955f12",
+      "changes": []
+    },
+    {
+      "path": "vendor/rlottie/src/lottie/rapidjson/internal/meta.h",
+      "original_git_blob": "d401edf85150d80c457d83212ce29b390d4aaed9",
+      "original_sha256": "52eb6de01e95e9c9e88bd70e050c985d7b37e7ac62a2320a4a06df665ecd4b9a",
+      "original_url": "https://raw.githubusercontent.com/DrKLO/Telegram/00a9454aeaa5970884e13abc4ec6c42a125742d0/TMessagesProj/jni/rlottie/src/lottie/rapidjson/internal/meta.h",
+      "distribution_sha256": "52eb6de01e95e9c9e88bd70e050c985d7b37e7ac62a2320a4a06df665ecd4b9a",
+      "changes": []
+    },
+    {
+      "path": "vendor/rlottie/src/lottie/rapidjson/internal/pow10.h",
+      "original_git_blob": "02f475d705fcbc478c38b529863210595ffe14c4",
+      "original_sha256": "6b8787ecc984887cc2579d7043c08ac57614b8c59e09073565538890dcd1ff21",
+      "original_url": "https://raw.githubusercontent.com/DrKLO/Telegram/00a9454aeaa5970884e13abc4ec6c42a125742d0/TMessagesProj/jni/rlottie/src/lottie/rapidjson/internal/pow10.h",
+      "distribution_sha256": "6b8787ecc984887cc2579d7043c08ac57614b8c59e09073565538890dcd1ff21",
+      "changes": []
+    },
+    {
+      "path": "vendor/rlottie/src/lottie/rapidjson/internal/regex.h",
+      "original_git_blob": "16e355921f884ccf3c98c927d8699f375b5ef6a6",
+      "original_sha256": "6b52da06d96e58536e2a5364255731fba3537336c51ace628c0f6f8aaf7eeb03",
+      "original_url": "https://raw.githubusercontent.com/DrKLO/Telegram/00a9454aeaa5970884e13abc4ec6c42a125742d0/TMessagesProj/jni/rlottie/src/lottie/rapidjson/internal/regex.h",
+      "distribution_sha256": "6b52da06d96e58536e2a5364255731fba3537336c51ace628c0f6f8aaf7eeb03",
+      "changes": []
+    },
+    {
+      "path": "vendor/rlottie/src/lottie/rapidjson/internal/stack.h",
+      "original_git_blob": "45dca6a8b09eb48856ca0e7435498295a5470884",
+      "original_sha256": "2ab58804815bf418898da95e4466173876038528024ae6474aca4df7739e0954",
+      "original_url": "https://raw.githubusercontent.com/DrKLO/Telegram/00a9454aeaa5970884e13abc4ec6c42a125742d0/TMessagesProj/jni/rlottie/src/lottie/rapidjson/internal/stack.h",
+      "distribution_sha256": "2ab58804815bf418898da95e4466173876038528024ae6474aca4df7739e0954",
+      "changes": []
+    },
+    {
+      "path": "vendor/rlottie/src/lottie/rapidjson/internal/strfunc.h",
+      "original_git_blob": "226439a767364577b3e8168104fb0d1575e4638a",
+      "original_sha256": "07f1a7fbf266154f9638bc75876391e1d020bd5c891d639901150f3c53127ec2",
+      "original_url": "https://raw.githubusercontent.com/DrKLO/Telegram/00a9454aeaa5970884e13abc4ec6c42a125742d0/TMessagesProj/jni/rlottie/src/lottie/rapidjson/internal/strfunc.h",
+      "distribution_sha256": "07f1a7fbf266154f9638bc75876391e1d020bd5c891d639901150f3c53127ec2",
+      "changes": []
+    },
+    {
+      "path": "vendor/rlottie/src/lottie/rapidjson/internal/strtod.h",
+      "original_git_blob": "dfca22b65ac03b9cfae6d684fecd5e0c3dec7946",
+      "original_sha256": "973a6a567707b5d706422d432681eb6d55b33fb6a58f081ea35f1f0f0610232a",
+      "original_url": "https://raw.githubusercontent.com/DrKLO/Telegram/00a9454aeaa5970884e13abc4ec6c42a125742d0/TMessagesProj/jni/rlottie/src/lottie/rapidjson/internal/strtod.h",
+      "distribution_sha256": "973a6a567707b5d706422d432681eb6d55b33fb6a58f081ea35f1f0f0610232a",
+      "changes": []
+    },
+    {
+      "path": "vendor/rlottie/src/lottie/rapidjson/internal/swap.h",
+      "original_git_blob": "666e49f97b68d9dbf42304346391d4d2f82cd0bd",
+      "original_sha256": "1403bd099a25621c63a1234ca61daae0444f1538c4be7b193694cf41a76f14ac",
+      "original_url": "https://raw.githubusercontent.com/DrKLO/Telegram/00a9454aeaa5970884e13abc4ec6c42a125742d0/TMessagesProj/jni/rlottie/src/lottie/rapidjson/internal/swap.h",
+      "distribution_sha256": "1403bd099a25621c63a1234ca61daae0444f1538c4be7b193694cf41a76f14ac",
+      "changes": []
+    },
+    {
+      "path": "vendor/rlottie/src/lottie/rapidjson/istreamwrapper.h",
+      "original_git_blob": "c4950b9dcf8284e51c408b9c959ace25a1bcc2ee",
+      "original_sha256": "ca185d060c0d7edf8a4026bbd706de2f77869f7e642b11ca7dc3a35daa57c5fd",
+      "original_url": "https://raw.githubusercontent.com/DrKLO/Telegram/00a9454aeaa5970884e13abc4ec6c42a125742d0/TMessagesProj/jni/rlottie/src/lottie/rapidjson/istreamwrapper.h",
+      "distribution_sha256": "ca185d060c0d7edf8a4026bbd706de2f77869f7e642b11ca7dc3a35daa57c5fd",
+      "changes": []
+    },
+    {
+      "path": "vendor/rlottie/src/lottie/rapidjson/memorybuffer.h",
+      "original_git_blob": "39bee1dec1c036d8ecd48a6ca57de16c168b6819",
+      "original_sha256": "cbfb33d4b2b826012c9932a664044cd70606ebd938ba9e35748892de2569e03f",
+      "original_url": "https://raw.githubusercontent.com/DrKLO/Telegram/00a9454aeaa5970884e13abc4ec6c42a125742d0/TMessagesProj/jni/rlottie/src/lottie/rapidjson/memorybuffer.h",
+      "distribution_sha256": "cbfb33d4b2b826012c9932a664044cd70606ebd938ba9e35748892de2569e03f",
+      "changes": []
+    },
+    {
+      "path": "vendor/rlottie/src/lottie/rapidjson/memorystream.h",
+      "original_git_blob": "1d71d8a4f0e0ade2b598f995ff811c5570da1c9b",
+      "original_sha256": "5381dd5981676dc6194cb384af6bcf623d9dee46b9b1508bd1e62c7cf3efac9f",
+      "original_url": "https://raw.githubusercontent.com/DrKLO/Telegram/00a9454aeaa5970884e13abc4ec6c42a125742d0/TMessagesProj/jni/rlottie/src/lottie/rapidjson/memorystream.h",
+      "distribution_sha256": "5381dd5981676dc6194cb384af6bcf623d9dee46b9b1508bd1e62c7cf3efac9f",
+      "changes": []
+    },
+    {
+      "path": "vendor/rlottie/src/lottie/rapidjson/msinttypes/inttypes.h",
+      "original_git_blob": "18111286bf55bc0c89e7f47afcb046bbb02e1781",
+      "original_sha256": "78ee41fd99bcbe59ca93f6a870a83c0a90f4b179af571f6e684f2600491bbae7",
+      "original_url": "https://raw.githubusercontent.com/DrKLO/Telegram/00a9454aeaa5970884e13abc4ec6c42a125742d0/TMessagesProj/jni/rlottie/src/lottie/rapidjson/msinttypes/inttypes.h",
+      "distribution_sha256": "78ee41fd99bcbe59ca93f6a870a83c0a90f4b179af571f6e684f2600491bbae7",
+      "changes": []
+    },
+    {
+      "path": "vendor/rlottie/src/lottie/rapidjson/msinttypes/stdint.h",
+      "original_git_blob": "3d4477b9a024a8f326afe362ce3926e04f4c8ec9",
+      "original_sha256": "bf2d1bc4885bc1e0720ec9af8f399477c7e105ae1e70e2863c31a8123cae1c17",
+      "original_url": "https://raw.githubusercontent.com/DrKLO/Telegram/00a9454aeaa5970884e13abc4ec6c42a125742d0/TMessagesProj/jni/rlottie/src/lottie/rapidjson/msinttypes/stdint.h",
+      "distribution_sha256": "bf2d1bc4885bc1e0720ec9af8f399477c7e105ae1e70e2863c31a8123cae1c17",
+      "changes": []
+    },
+    {
+      "path": "vendor/rlottie/src/lottie/rapidjson/ostreamwrapper.h",
+      "original_git_blob": "6f4667c08ad7ba3b05951a95c3be4927c79beb57",
+      "original_sha256": "8ab62eb2967a965b4b39bd03ae49c220e7a6cd6c5c680f39cb32ef652b2c3337",
+      "original_url": "https://raw.githubusercontent.com/DrKLO/Telegram/00a9454aeaa5970884e13abc4ec6c42a125742d0/TMessagesProj/jni/rlottie/src/lottie/rapidjson/ostreamwrapper.h",
+      "distribution_sha256": "8ab62eb2967a965b4b39bd03ae49c220e7a6cd6c5c680f39cb32ef652b2c3337",
+      "changes": []
+    },
+    {
+      "path": "vendor/rlottie/src/lottie/rapidjson/pointer.h",
+      "original_git_blob": "063abab9a1703c8a390f84837c6f40857826cdef",
+      "original_sha256": "fc4e8923378a6c07afbdf279eb572ec97b150fd071114b2fb3d735d1fc1cb2e2",
+      "original_url": "https://raw.githubusercontent.com/DrKLO/Telegram/00a9454aeaa5970884e13abc4ec6c42a125742d0/TMessagesProj/jni/rlottie/src/lottie/rapidjson/pointer.h",
+      "distribution_sha256": "fc4e8923378a6c07afbdf279eb572ec97b150fd071114b2fb3d735d1fc1cb2e2",
+      "changes": []
+    },
+    {
+      "path": "vendor/rlottie/src/lottie/rapidjson/prettywriter.h",
+      "original_git_blob": "45afb6949deb416cb3d437dc9bc7edde21ecaafa",
+      "original_sha256": "da98bac45ac565f1126361f57090259f1a556a27ff161a5f3bc441db8b104be8",
+      "original_url": "https://raw.githubusercontent.com/DrKLO/Telegram/00a9454aeaa5970884e13abc4ec6c42a125742d0/TMessagesProj/jni/rlottie/src/lottie/rapidjson/prettywriter.h",
+      "distribution_sha256": "da98bac45ac565f1126361f57090259f1a556a27ff161a5f3bc441db8b104be8",
+      "changes": []
+    },
+    {
+      "path": "vendor/rlottie/src/lottie/rapidjson/rapidjson.h",
+      "original_git_blob": "a535d3cfa53f4dfe2b3b512a7a037cf8ba3d4386",
+      "original_sha256": "9973e83e2a5b04677e8c893346048544932c908fd6815314992627377a19110d",
+      "original_url": "https://raw.githubusercontent.com/DrKLO/Telegram/00a9454aeaa5970884e13abc4ec6c42a125742d0/TMessagesProj/jni/rlottie/src/lottie/rapidjson/rapidjson.h",
+      "distribution_sha256": "9973e83e2a5b04677e8c893346048544932c908fd6815314992627377a19110d",
+      "changes": []
+    },
+    {
+      "path": "vendor/rlottie/src/lottie/rapidjson/reader.h",
+      "original_git_blob": "44a6bcd30cf248b9cb193d1d82bf7451c6b1eed4",
+      "original_sha256": "9312d9cb66f4de4308d01b097e390318128734777f0f26276a1c95e2fe5114bf",
+      "original_url": "https://raw.githubusercontent.com/DrKLO/Telegram/00a9454aeaa5970884e13abc4ec6c42a125742d0/TMessagesProj/jni/rlottie/src/lottie/rapidjson/reader.h",
+      "distribution_sha256": "9312d9cb66f4de4308d01b097e390318128734777f0f26276a1c95e2fe5114bf",
+      "changes": []
+    },
+    {
+      "path": "vendor/rlottie/src/lottie/rapidjson/schema.h",
+      "original_git_blob": "26ae9474806340967d7e5cb05eb2270705380592",
+      "original_sha256": "5ea54a22d37697a0cbc6b85f43c0c0ed5d31fb6095feec7b1aa9f187f8fba60a",
+      "original_url": "https://raw.githubusercontent.com/DrKLO/Telegram/00a9454aeaa5970884e13abc4ec6c42a125742d0/TMessagesProj/jni/rlottie/src/lottie/rapidjson/schema.h",
+      "distribution_sha256": "5ea54a22d37697a0cbc6b85f43c0c0ed5d31fb6095feec7b1aa9f187f8fba60a",
+      "changes": []
+    },
+    {
+      "path": "vendor/rlottie/src/lottie/rapidjson/stream.h",
+      "original_git_blob": "c08a87e1831b4a8a5492affa90884e8e8f98e5b8",
+      "original_sha256": "467856a73fee95f7189799813cfec279e506190c1d721eb98f47d9085d26b94a",
+      "original_url": "https://raw.githubusercontent.com/DrKLO/Telegram/00a9454aeaa5970884e13abc4ec6c42a125742d0/TMessagesProj/jni/rlottie/src/lottie/rapidjson/stream.h",
+      "distribution_sha256": "467856a73fee95f7189799813cfec279e506190c1d721eb98f47d9085d26b94a",
+      "changes": []
+    },
+    {
+      "path": "vendor/rlottie/src/lottie/rapidjson/stringbuffer.h",
+      "original_git_blob": "4e38b82c3d9849e9d1930088494b240c4b2d3cc0",
+      "original_sha256": "57fc25405c5a97b941c4ce2cdc9cb4ec502c4936196c368c7d78c1e5096d69e7",
+      "original_url": "https://raw.githubusercontent.com/DrKLO/Telegram/00a9454aeaa5970884e13abc4ec6c42a125742d0/TMessagesProj/jni/rlottie/src/lottie/rapidjson/stringbuffer.h",
+      "distribution_sha256": "57fc25405c5a97b941c4ce2cdc9cb4ec502c4936196c368c7d78c1e5096d69e7",
+      "changes": []
+    },
+    {
+      "path": "vendor/rlottie/src/lottie/rapidjson/writer.h",
+      "original_git_blob": "6f5b6903467adab203bb18c3d96a04465b9fc7ea",
+      "original_sha256": "012aee1720a98987ec479f78a1e9c31de1c4ec06a7ef29c92171c3db990cfe97",
+      "original_url": "https://raw.githubusercontent.com/DrKLO/Telegram/00a9454aeaa5970884e13abc4ec6c42a125742d0/TMessagesProj/jni/rlottie/src/lottie/rapidjson/writer.h",
+      "distribution_sha256": "012aee1720a98987ec479f78a1e9c31de1c4ec06a7ef29c92171c3db990cfe97",
+      "changes": []
+    },
+    {
+      "path": "vendor/rlottie/src/vector/config.h",
+      "original_git_blob": "116e029e1bc86f690aca32791c14e0d77f496307",
+      "original_sha256": "c241c3fd9e5b50701e0398669f472ccca44f695589cb05352fdb7434073d1a23",
+      "original_url": "https://raw.githubusercontent.com/DrKLO/Telegram/00a9454aeaa5970884e13abc4ec6c42a125742d0/TMessagesProj/jni/rlottie/src/vector/config.h",
+      "distribution_sha256": "c241c3fd9e5b50701e0398669f472ccca44f695589cb05352fdb7434073d1a23",
+      "changes": []
+    },
+    {
+      "path": "vendor/rlottie/src/vector/freetype/v_ft_math.cpp",
+      "original_git_blob": "5a71e70e3147b2888b8477f8d222ac4b795939b6",
+      "original_sha256": "0c97c1e9e62178da5fdca4bf526592aa60b008dc5c1fd620c6c484d20ebf8e90",
+      "original_url": "https://raw.githubusercontent.com/DrKLO/Telegram/00a9454aeaa5970884e13abc4ec6c42a125742d0/TMessagesProj/jni/rlottie/src/vector/freetype/v_ft_math.cpp",
+      "distribution_sha256": "61cdfc02d5b032b96a13ee6811153e3a366fc6e2a9be13ea6679eba5be28f800",
+      "changes": [
+        "notice: restore Abseil Apache-2.0 attribution"
+      ]
+    },
+    {
+      "path": "vendor/rlottie/src/vector/freetype/v_ft_math.h",
+      "original_git_blob": "b4611d8d44a1a151d7b15cceed6e0217ca470896",
+      "original_sha256": "ce38c860e0617bc9ad5f95e2f0b347c3993fafaf1697b4e12cb01f4252446d78",
+      "original_url": "https://raw.githubusercontent.com/DrKLO/Telegram/00a9454aeaa5970884e13abc4ec6c42a125742d0/TMessagesProj/jni/rlottie/src/vector/freetype/v_ft_math.h",
+      "distribution_sha256": "ce38c860e0617bc9ad5f95e2f0b347c3993fafaf1697b4e12cb01f4252446d78",
+      "changes": []
+    },
+    {
+      "path": "vendor/rlottie/src/vector/freetype/v_ft_raster.cpp",
+      "original_git_blob": "9b22d64e76f974cc4f713b7f06c0778a953f05aa",
+      "original_sha256": "19d9ea6031d4e7a5e51e43112cf940f2d02bb03c61d7f30b064987a4f8471ba1",
+      "original_url": "https://raw.githubusercontent.com/DrKLO/Telegram/00a9454aeaa5970884e13abc4ec6c42a125742d0/TMessagesProj/jni/rlottie/src/vector/freetype/v_ft_raster.cpp",
+      "distribution_sha256": "19d9ea6031d4e7a5e51e43112cf940f2d02bb03c61d7f30b064987a4f8471ba1",
+      "changes": []
+    },
+    {
+      "path": "vendor/rlottie/src/vector/freetype/v_ft_raster.h",
+      "original_git_blob": "bab40efd90911507afdef6644e813db1fc3dc687",
+      "original_sha256": "f72484f92e56927f3c78b1be00fa3a1956752223e013269860df96526bc1f5e0",
+      "original_url": "https://raw.githubusercontent.com/DrKLO/Telegram/00a9454aeaa5970884e13abc4ec6c42a125742d0/TMessagesProj/jni/rlottie/src/vector/freetype/v_ft_raster.h",
+      "distribution_sha256": "f72484f92e56927f3c78b1be00fa3a1956752223e013269860df96526bc1f5e0",
+      "changes": []
+    },
+    {
+      "path": "vendor/rlottie/src/vector/freetype/v_ft_stroker.cpp",
+      "original_git_blob": "2a857079b036aea06efa6c24f87a3229f341e059",
+      "original_sha256": "7e001aefefe964f0c6e674434411110a440227d2ad17462b5b07f52252de7ed1",
+      "original_url": "https://raw.githubusercontent.com/DrKLO/Telegram/00a9454aeaa5970884e13abc4ec6c42a125742d0/TMessagesProj/jni/rlottie/src/vector/freetype/v_ft_stroker.cpp",
+      "distribution_sha256": "7e001aefefe964f0c6e674434411110a440227d2ad17462b5b07f52252de7ed1",
+      "changes": []
+    },
+    {
+      "path": "vendor/rlottie/src/vector/freetype/v_ft_stroker.h",
+      "original_git_blob": "1514cf3d0a51397656efaf685fa590c45c6c2f2b",
+      "original_sha256": "15b5b39e236f70ae656a608fee9ac0f218b44ced12d3ba66b48465682f05790d",
+      "original_url": "https://raw.githubusercontent.com/DrKLO/Telegram/00a9454aeaa5970884e13abc4ec6c42a125742d0/TMessagesProj/jni/rlottie/src/vector/freetype/v_ft_stroker.h",
+      "distribution_sha256": "15b5b39e236f70ae656a608fee9ac0f218b44ced12d3ba66b48465682f05790d",
+      "changes": []
+    },
+    {
+      "path": "vendor/rlottie/src/vector/freetype/v_ft_types.h",
+      "original_git_blob": "a01c4f2872e4fe4cea8fc251a7e579750fb77db0",
+      "original_sha256": "d4d3bfc0111f8f03f35d67036f5425c34e1cb72d564efe7d10bb8b4c9a0c54fd",
+      "original_url": "https://raw.githubusercontent.com/DrKLO/Telegram/00a9454aeaa5970884e13abc4ec6c42a125742d0/TMessagesProj/jni/rlottie/src/vector/freetype/v_ft_types.h",
+      "distribution_sha256": "d4d3bfc0111f8f03f35d67036f5425c34e1cb72d564efe7d10bb8b4c9a0c54fd",
+      "changes": []
+    },
+    {
+      "path": "vendor/rlottie/src/vector/pixman/pixman-arm-neon-asm.S",
+      "original_git_blob": "6ccdc4c368196a287d6a332a182d7e3c587b0722",
+      "original_sha256": "5358a9b0ffed73ba8f866c61cd96989f2048cf7f1fd0c5c6f905dfe96ca1b5fc",
+      "original_url": "https://raw.githubusercontent.com/DrKLO/Telegram/00a9454aeaa5970884e13abc4ec6c42a125742d0/TMessagesProj/jni/rlottie/src/vector/pixman/pixman-arm-neon-asm.S",
+      "distribution_sha256": "5358a9b0ffed73ba8f866c61cd96989f2048cf7f1fd0c5c6f905dfe96ca1b5fc",
+      "changes": []
+    },
+    {
+      "path": "vendor/rlottie/src/vector/pixman/pixman-arm-neon-asm.h",
+      "original_git_blob": "12de56cd5a0b10134a9acdf45dbca6ad9f73122b",
+      "original_sha256": "6aeabb8ec2daae4913ba909da4a0ba23822f88290c29c4fae340ba21f32d453b",
+      "original_url": "https://raw.githubusercontent.com/DrKLO/Telegram/00a9454aeaa5970884e13abc4ec6c42a125742d0/TMessagesProj/jni/rlottie/src/vector/pixman/pixman-arm-neon-asm.h",
+      "distribution_sha256": "6aeabb8ec2daae4913ba909da4a0ba23822f88290c29c4fae340ba21f32d453b",
+      "changes": []
+    },
+    {
+      "path": "vendor/rlottie/src/vector/pixman/pixman-arma64-neon-asm.S",
+      "original_git_blob": "8169c24e12025a758a0a467c9a72cbcd538d0f43",
+      "original_sha256": "9b7ad7189c08269a3899b1c2f66751e845ea349b25e00f8279c5419c5cafcdf9",
+      "original_url": "https://raw.githubusercontent.com/DrKLO/Telegram/00a9454aeaa5970884e13abc4ec6c42a125742d0/TMessagesProj/jni/rlottie/src/vector/pixman/pixman-arma64-neon-asm.S",
+      "distribution_sha256": "9b7ad7189c08269a3899b1c2f66751e845ea349b25e00f8279c5419c5cafcdf9",
+      "changes": []
+    },
+    {
+      "path": "vendor/rlottie/src/vector/pixman/pixman-arma64-neon-asm.h",
+      "original_git_blob": "28b17be9242bbd6d384fde62de52a3a92d8b3bb1",
+      "original_sha256": "17cb45aef9c0df80b5c76a0de44970ec2d707a71547368ce2273fd0b92881b98",
+      "original_url": "https://raw.githubusercontent.com/DrKLO/Telegram/00a9454aeaa5970884e13abc4ec6c42a125742d0/TMessagesProj/jni/rlottie/src/vector/pixman/pixman-arma64-neon-asm.h",
+      "distribution_sha256": "17cb45aef9c0df80b5c76a0de44970ec2d707a71547368ce2273fd0b92881b98",
+      "changes": []
+    },
+    {
+      "path": "vendor/rlottie/src/vector/pixman/vregion.cpp",
+      "original_git_blob": "5944b63473256bb597bcc194d14e00b8ad28298a",
+      "original_sha256": "c8dc5abc319263fee563bc1ef96fa48adccd245f6de6c00177c61c9fc64ad03d",
+      "original_url": "https://raw.githubusercontent.com/DrKLO/Telegram/00a9454aeaa5970884e13abc4ec6c42a125742d0/TMessagesProj/jni/rlottie/src/vector/pixman/vregion.cpp",
+      "distribution_sha256": "c8dc5abc319263fee563bc1ef96fa48adccd245f6de6c00177c61c9fc64ad03d",
+      "changes": []
+    },
+    {
+      "path": "vendor/rlottie/src/vector/pixman/vregion.h",
+      "original_git_blob": "ecb17f2537ce36965eac060391d70e6b9f9d0834",
+      "original_sha256": "6ad0c22a0619b05c2d01c235addd9206ff91b62ecdae5ee8ab0e795c4196361b",
+      "original_url": "https://raw.githubusercontent.com/DrKLO/Telegram/00a9454aeaa5970884e13abc4ec6c42a125742d0/TMessagesProj/jni/rlottie/src/vector/pixman/vregion.h",
+      "distribution_sha256": "733958cdf17cd13c50f574f913f7d9d9d09063d6a77b4769734ea4719c6ec6d9",
+      "changes": [
+        "license: LGPL-2.1 section 3 conversion to GPLv3"
+      ]
+    },
+    {
+      "path": "vendor/rlottie/src/vector/stb/stb_image.cpp",
+      "original_git_blob": "985b058a7e8112e5b7ad2faa402d6476012e111d",
+      "original_sha256": "d45752f6cd7ede3e25a4cefc6dc95db583eb46c1de0a8e788177b5e996bd96cd",
+      "original_url": "https://raw.githubusercontent.com/DrKLO/Telegram/00a9454aeaa5970884e13abc4ec6c42a125742d0/TMessagesProj/jni/rlottie/src/vector/stb/stb_image.cpp",
+      "distribution_sha256": "d45752f6cd7ede3e25a4cefc6dc95db583eb46c1de0a8e788177b5e996bd96cd",
+      "changes": []
+    },
+    {
+      "path": "vendor/rlottie/src/vector/stb/stb_image.h",
+      "original_git_blob": "b8ab0553749ed644847940cc7a2582610f3cad91",
+      "original_sha256": "e571f8b09b48ee4ae8f246740a89f21b6f10e559bf11c9c155d4ac6c05b24c9b",
+      "original_url": "https://raw.githubusercontent.com/DrKLO/Telegram/00a9454aeaa5970884e13abc4ec6c42a125742d0/TMessagesProj/jni/rlottie/src/vector/stb/stb_image.h",
+      "distribution_sha256": "e571f8b09b48ee4ae8f246740a89f21b6f10e559bf11c9c155d4ac6c05b24c9b",
+      "changes": []
+    },
+    {
+      "path": "vendor/rlottie/src/vector/vbezier.cpp",
+      "original_git_blob": "c5d7a173dabb53e026bc3eee86c56e389a4ee076",
+      "original_sha256": "4638f607f80b1c2f833150fac1864332ef8fae80cf4512f5b6609b721b8ead40",
+      "original_url": "https://raw.githubusercontent.com/DrKLO/Telegram/00a9454aeaa5970884e13abc4ec6c42a125742d0/TMessagesProj/jni/rlottie/src/vector/vbezier.cpp",
+      "distribution_sha256": "971a051c8c90ac3222febdff71b203a9713bbb874f7fecc1e5a0578e2db6d8c6",
+      "changes": [
+        "license: LGPL-2.1 section 3 conversion to GPLv3"
+      ]
+    },
+    {
+      "path": "vendor/rlottie/src/vector/vbezier.h",
+      "original_git_blob": "b07e7824da71772073f48faa702135b8c12bc83b",
+      "original_sha256": "63896ff9ddb1f8ffde2403d8437c49c07127b099fab79fa448286ca18c34507b",
+      "original_url": "https://raw.githubusercontent.com/DrKLO/Telegram/00a9454aeaa5970884e13abc4ec6c42a125742d0/TMessagesProj/jni/rlottie/src/vector/vbezier.h",
+      "distribution_sha256": "38243de6e17cc49d59d8ab70edcd723175ce638b06bb30cd1c935fa8d915460c",
+      "changes": [
+        "license: LGPL-2.1 section 3 conversion to GPLv3"
+      ]
+    },
+    {
+      "path": "vendor/rlottie/src/vector/vbitmap.cpp",
+      "original_git_blob": "20963a65e08b28203882a4284b278b40194041b9",
+      "original_sha256": "b1b1eb7a1f320c51a36f0da3cb5291c86fb4301c4d653d0a3ef02a782a1c7844",
+      "original_url": "https://raw.githubusercontent.com/DrKLO/Telegram/00a9454aeaa5970884e13abc4ec6c42a125742d0/TMessagesProj/jni/rlottie/src/vector/vbitmap.cpp",
+      "distribution_sha256": "ef4adb886b6196f8b31a60de973224bcda9e37c9a00e828868f5d9ac58fa1fd4",
+      "changes": [
+        "license: LGPL-2.1 section 3 conversion to GPLv3"
+      ]
+    },
+    {
+      "path": "vendor/rlottie/src/vector/vbitmap.h",
+      "original_git_blob": "8c49102c2dec31ee19709dca7f40b7d6d9992c71",
+      "original_sha256": "f99d07d33eea707c69be1941c104dc757f683e94f62af8348c9183dc3a71c813",
+      "original_url": "https://raw.githubusercontent.com/DrKLO/Telegram/00a9454aeaa5970884e13abc4ec6c42a125742d0/TMessagesProj/jni/rlottie/src/vector/vbitmap.h",
+      "distribution_sha256": "8090921b25c892ef9973a4b33fc165dbd442a466ae8e4431bafbb49485a3521f",
+      "changes": [
+        "license: LGPL-2.1 section 3 conversion to GPLv3"
+      ]
+    },
+    {
+      "path": "vendor/rlottie/src/vector/vbrush.cpp",
+      "original_git_blob": "cdc114ecfe8712554ef8545b487f3292a53504bb",
+      "original_sha256": "cce16d49ced1b306aa3be9393e13d08644d96ec0a9371d95f8607b670aa0e618",
+      "original_url": "https://raw.githubusercontent.com/DrKLO/Telegram/00a9454aeaa5970884e13abc4ec6c42a125742d0/TMessagesProj/jni/rlottie/src/vector/vbrush.cpp",
+      "distribution_sha256": "5a134ebb63479dafdf8329ba707fdb8d1a24189a438e38f42c844b030fb18bdf",
+      "changes": [
+        "license: LGPL-2.1 section 3 conversion to GPLv3"
+      ]
+    },
+    {
+      "path": "vendor/rlottie/src/vector/vbrush.h",
+      "original_git_blob": "348e2ec877c019c883f706adfc4d8354a80ab2f6",
+      "original_sha256": "249f6413d59750aecdc57f85ff66d516b2ee9f2bbb840f37750717b691f599b3",
+      "original_url": "https://raw.githubusercontent.com/DrKLO/Telegram/00a9454aeaa5970884e13abc4ec6c42a125742d0/TMessagesProj/jni/rlottie/src/vector/vbrush.h",
+      "distribution_sha256": "451137b959f20c299c55aac0d24daeea3e9c1a4b8f9410a5fdc8892dbbb018e1",
+      "changes": [
+        "license: LGPL-2.1 section 3 conversion to GPLv3"
+      ]
+    },
+    {
+      "path": "vendor/rlottie/src/vector/vcompositionfunctions.cpp",
+      "original_git_blob": "52ac0dbe0e2a772866fa82965bba321dd4e94387",
+      "original_sha256": "14cdfeb184e22eec3d0435273c157dcc2b2d2db3b0d87de615fba159cde6ba58",
+      "original_url": "https://raw.githubusercontent.com/DrKLO/Telegram/00a9454aeaa5970884e13abc4ec6c42a125742d0/TMessagesProj/jni/rlottie/src/vector/vcompositionfunctions.cpp",
+      "distribution_sha256": "80c458c2d653f3aa868422b1678e48df8b74c6d29139b885142fa3131d89160f",
+      "changes": [
+        "license: LGPL-2.1 section 3 conversion to GPLv3"
+      ]
+    },
+    {
+      "path": "vendor/rlottie/src/vector/vcowptr.h",
+      "original_git_blob": "dcc283ad1ea1c166f58c5c5304457387dc0afd0b",
+      "original_sha256": "767e0621192b10b492122ffbdfd0be18edb53a6a1e073301b2bd864fc1308813",
+      "original_url": "https://raw.githubusercontent.com/DrKLO/Telegram/00a9454aeaa5970884e13abc4ec6c42a125742d0/TMessagesProj/jni/rlottie/src/vector/vcowptr.h",
+      "distribution_sha256": "294ba649edb3c2c5e9a7ab6c49f434c410dfd2b55c15e117df0150a7aab0c013",
+      "changes": [
+        "license: LGPL-2.1 section 3 conversion to GPLv3"
+      ]
+    },
+    {
+      "path": "vendor/rlottie/src/vector/vdasher.cpp",
+      "original_git_blob": "24f569bac209fbb6c323cbd9c54d259163ae8376",
+      "original_sha256": "3ebfcf2f6549a3d486a67df68642321cdda71466611b1a6e10be602a90b8c541",
+      "original_url": "https://raw.githubusercontent.com/DrKLO/Telegram/00a9454aeaa5970884e13abc4ec6c42a125742d0/TMessagesProj/jni/rlottie/src/vector/vdasher.cpp",
+      "distribution_sha256": "f79304ddf340199a697dcc58403597f4c3471ae5cc6988fb464b219e47104a34",
+      "changes": [
+        "license: LGPL-2.1 section 3 conversion to GPLv3"
+      ]
+    },
+    {
+      "path": "vendor/rlottie/src/vector/vdasher.h",
+      "original_git_blob": "3d1a71943b9ba5278507ce06c35fbe97678f457e",
+      "original_sha256": "31a01ddca9af191a8757c59e98cef87fbca2f2e8e7026824c19e06ca5aac1821",
+      "original_url": "https://raw.githubusercontent.com/DrKLO/Telegram/00a9454aeaa5970884e13abc4ec6c42a125742d0/TMessagesProj/jni/rlottie/src/vector/vdasher.h",
+      "distribution_sha256": "c437aaf301cae3421d7337b82aa0846c445b5a2bec3db8d28ada6179f844ecc1",
+      "changes": [
+        "license: LGPL-2.1 section 3 conversion to GPLv3"
+      ]
+    },
+    {
+      "path": "vendor/rlottie/src/vector/vdebug.cpp",
+      "original_git_blob": "8a0c19cef5f2192e626d4cbf71eef90fa85fe9df",
+      "original_sha256": "ef3fbc59570dc7de42f28991365012ce32ff50e6cb49fe9cda20e02eae6abfac",
+      "original_url": "https://raw.githubusercontent.com/DrKLO/Telegram/00a9454aeaa5970884e13abc4ec6c42a125742d0/TMessagesProj/jni/rlottie/src/vector/vdebug.cpp",
+      "distribution_sha256": "b66b849b8c22c58ed90871290c86803c8cf5a51b2c522ad039ef145039eade88",
+      "changes": [
+        "license: LGPL-2.1 section 3 conversion to GPLv3"
+      ]
+    },
+    {
+      "path": "vendor/rlottie/src/vector/vdebug.h",
+      "original_git_blob": "83ffdb028b6c1b8a1873dac613f7276197a5a3a7",
+      "original_sha256": "90eb0e5a96bf4e4ef50545aee4b09400da54e2def2e7afe69df9e9d31e908b5c",
+      "original_url": "https://raw.githubusercontent.com/DrKLO/Telegram/00a9454aeaa5970884e13abc4ec6c42a125742d0/TMessagesProj/jni/rlottie/src/vector/vdebug.h",
+      "distribution_sha256": "9a2ebec1d92c5fc7cfc558e20ed0dbc78ea188073fd8ac192ebe59cbb9fd59b7",
+      "changes": [
+        "license: LGPL-2.1 section 3 conversion to GPLv3"
+      ]
+    },
+    {
+      "path": "vendor/rlottie/src/vector/vdrawable.cpp",
+      "original_git_blob": "1184fcca1dd2c98ef4d0a3cfaeb774a970b15ccb",
+      "original_sha256": "6746aa32b2f3c7b53f477ba8970edbff95ac24be9888fc8f4d45d8d958161c27",
+      "original_url": "https://raw.githubusercontent.com/DrKLO/Telegram/00a9454aeaa5970884e13abc4ec6c42a125742d0/TMessagesProj/jni/rlottie/src/vector/vdrawable.cpp",
+      "distribution_sha256": "b69a51ffbccc553ae5bfbfa8b587a7f4e9d15b97b30c88f962a7734f45c0bd0c",
+      "changes": [
+        "license: LGPL-2.1 section 3 conversion to GPLv3"
+      ]
+    },
+    {
+      "path": "vendor/rlottie/src/vector/vdrawable.h",
+      "original_git_blob": "861d9be1a0ff9d2fc9e3eded2a7def4db6403d4e",
+      "original_sha256": "6a92ad0dedd7f93e7e02193c350150815aba937478c588c616957f3345ff0c1b",
+      "original_url": "https://raw.githubusercontent.com/DrKLO/Telegram/00a9454aeaa5970884e13abc4ec6c42a125742d0/TMessagesProj/jni/rlottie/src/vector/vdrawable.h",
+      "distribution_sha256": "50752f146ba0a158a9d28c333cd5f050d2d19b3eb0215a448373083270c8eb43",
+      "changes": [
+        "license: LGPL-2.1 section 3 conversion to GPLv3"
+      ]
+    },
+    {
+      "path": "vendor/rlottie/src/vector/vdrawhelper.cpp",
+      "original_git_blob": "b8a28a253f855190dea537cec2301f8a03f0ffbb",
+      "original_sha256": "85f391e9f257e76a47dda704d629bb2e58705546f5f30271b4d93046a296fa1d",
+      "original_url": "https://raw.githubusercontent.com/DrKLO/Telegram/00a9454aeaa5970884e13abc4ec6c42a125742d0/TMessagesProj/jni/rlottie/src/vector/vdrawhelper.cpp",
+      "distribution_sha256": "ecf97c105fa5162d734ab0f95d3a978ac7efc31abbd86760eb7aadfbefc82d8d",
+      "changes": [
+        "license: LGPL-2.1 section 3 conversion to GPLv3"
+      ]
+    },
+    {
+      "path": "vendor/rlottie/src/vector/vdrawhelper.h",
+      "original_git_blob": "55e182fa80381e80b2e44557031bbedc53d7473d",
+      "original_sha256": "69f8a5a081419fa495cf0f07f877ae2e72bed079b221b9984eed8a22f50245ee",
+      "original_url": "https://raw.githubusercontent.com/DrKLO/Telegram/00a9454aeaa5970884e13abc4ec6c42a125742d0/TMessagesProj/jni/rlottie/src/vector/vdrawhelper.h",
+      "distribution_sha256": "89f9cf8800fd29c5daabafdbdde070937b9ff252204a46b4fca9e6e36b1c2c69",
+      "changes": [
+        "license: LGPL-2.1 section 3 conversion to GPLv3"
+      ]
+    },
+    {
+      "path": "vendor/rlottie/src/vector/vdrawhelper_neon.cpp",
+      "original_git_blob": "2ef56ef031923ba13174d6bcf6e2d4de2c7fab96",
+      "original_sha256": "3644cf45f314e381e932fc4639aba77e1e99660a7506d48a76f7df96aea42f2a",
+      "original_url": "https://raw.githubusercontent.com/DrKLO/Telegram/00a9454aeaa5970884e13abc4ec6c42a125742d0/TMessagesProj/jni/rlottie/src/vector/vdrawhelper_neon.cpp",
+      "distribution_sha256": "3644cf45f314e381e932fc4639aba77e1e99660a7506d48a76f7df96aea42f2a",
+      "changes": []
+    },
+    {
+      "path": "vendor/rlottie/src/vector/velapsedtimer.cpp",
+      "original_git_blob": "4c74027476a76ce68eb74940c9fa88a5cbc1be8a",
+      "original_sha256": "359d99d16ff6e54f6b2e6f6474e82c7430551f9b703f4a3a52187aa177cf8187",
+      "original_url": "https://raw.githubusercontent.com/DrKLO/Telegram/00a9454aeaa5970884e13abc4ec6c42a125742d0/TMessagesProj/jni/rlottie/src/vector/velapsedtimer.cpp",
+      "distribution_sha256": "bcf3817b9f5a8719b95543d3732261298d496e5b2f64c3b34736e61a0850880b",
+      "changes": [
+        "license: LGPL-2.1 section 3 conversion to GPLv3"
+      ]
+    },
+    {
+      "path": "vendor/rlottie/src/vector/velapsedtimer.h",
+      "original_git_blob": "108fd66549ebf70944cd19685ed825c25a0ee41b",
+      "original_sha256": "c0a3539494586f6bae0d12f53960cad5063a4d2136a4895b1f7b7abb497f1647",
+      "original_url": "https://raw.githubusercontent.com/DrKLO/Telegram/00a9454aeaa5970884e13abc4ec6c42a125742d0/TMessagesProj/jni/rlottie/src/vector/velapsedtimer.h",
+      "distribution_sha256": "4961f3c739285e674803ab718847950cd1c9bfe4757c94af8a3763d011096b17",
+      "changes": [
+        "license: LGPL-2.1 section 3 conversion to GPLv3"
+      ]
+    },
+    {
+      "path": "vendor/rlottie/src/vector/vglobal.h",
+      "original_git_blob": "98837fd23539992314638761676b10ec192fceb5",
+      "original_sha256": "72a8f074b897569e4625e73517da8d4c2dbea24b8097077d3d09ec31c01037d5",
+      "original_url": "https://raw.githubusercontent.com/DrKLO/Telegram/00a9454aeaa5970884e13abc4ec6c42a125742d0/TMessagesProj/jni/rlottie/src/vector/vglobal.h",
+      "distribution_sha256": "eca1a57b607e7d2539666013ec178f1366c6fa36bd4124a0ee86d0158ce68a12",
+      "changes": [
+        "license: LGPL-2.1 section 3 conversion to GPLv3"
+      ]
+    },
+    {
+      "path": "vendor/rlottie/src/vector/vimageloader.cpp",
+      "original_git_blob": "79d7de2828a60244a3ad42f746d58c7c9dcb3649",
+      "original_sha256": "9a96a166ec31b1f573545820dd23d97230514666637b4a43ede39a00bfcea3e9",
+      "original_url": "https://raw.githubusercontent.com/DrKLO/Telegram/00a9454aeaa5970884e13abc4ec6c42a125742d0/TMessagesProj/jni/rlottie/src/vector/vimageloader.cpp",
+      "distribution_sha256": "9a96a166ec31b1f573545820dd23d97230514666637b4a43ede39a00bfcea3e9",
+      "changes": []
+    },
+    {
+      "path": "vendor/rlottie/src/vector/vimageloader.h",
+      "original_git_blob": "2ca4cec39a58508a8fc00654575f3b1f317a1655",
+      "original_sha256": "8fc8e5e19ec185577d737cf55dda70db2198ef400efaed7875685de842ff12d1",
+      "original_url": "https://raw.githubusercontent.com/DrKLO/Telegram/00a9454aeaa5970884e13abc4ec6c42a125742d0/TMessagesProj/jni/rlottie/src/vector/vimageloader.h",
+      "distribution_sha256": "8fc8e5e19ec185577d737cf55dda70db2198ef400efaed7875685de842ff12d1",
+      "changes": []
+    },
+    {
+      "path": "vendor/rlottie/src/vector/vinterpolator.cpp",
+      "original_git_blob": "94f454ad3340a48c6f880037234f12ed243d6995",
+      "original_sha256": "dab285834d0169e160e45e1afb6d54c619bec3f39e3cc602cf18d39319a088b5",
+      "original_url": "https://raw.githubusercontent.com/DrKLO/Telegram/00a9454aeaa5970884e13abc4ec6c42a125742d0/TMessagesProj/jni/rlottie/src/vector/vinterpolator.cpp",
+      "distribution_sha256": "578d0e88999c5c63e48095c7fddfa46bf8fdfa59d40bd191adc8875c7c3de269",
+      "changes": [
+        "license: select GPLv3 under existing GPL-2.0-or-later option"
+      ]
+    },
+    {
+      "path": "vendor/rlottie/src/vector/vinterpolator.h",
+      "original_git_blob": "77aaaae26e114ea985484841a240f0692ad3d881",
+      "original_sha256": "d269394ccddac76644b777be3efea450bc161fcdb7c32dc0a356f249ca025c83",
+      "original_url": "https://raw.githubusercontent.com/DrKLO/Telegram/00a9454aeaa5970884e13abc4ec6c42a125742d0/TMessagesProj/jni/rlottie/src/vector/vinterpolator.h",
+      "distribution_sha256": "2fb331e6f21c7c1b30d1b93d9c25aac6d41e25446464e4440d41d7babc0b8884",
+      "changes": [
+        "license: LGPL-2.1 section 3 conversion to GPLv3"
+      ]
+    },
+    {
+      "path": "vendor/rlottie/src/vector/vline.h",
+      "original_git_blob": "f466e317720bd41787ef949a8c26089d42e68ef2",
+      "original_sha256": "0c42395e7034ac3197825df83d599fc287dc421f25885bdeeda16c7648cc8229",
+      "original_url": "https://raw.githubusercontent.com/DrKLO/Telegram/00a9454aeaa5970884e13abc4ec6c42a125742d0/TMessagesProj/jni/rlottie/src/vector/vline.h",
+      "distribution_sha256": "4a9423d10dea6ab7ac8dc705ab5002a2bfce50f83d67f199e9a8bea103e20c2e",
+      "changes": [
+        "license: LGPL-2.1 section 3 conversion to GPLv3"
+      ]
+    },
+    {
+      "path": "vendor/rlottie/src/vector/vmatrix.cpp",
+      "original_git_blob": "3ca1404f95960d47f36db355e8025467cd7171d9",
+      "original_sha256": "39739869a48eb26cc296a93d24f9a9e262ad1e4289afb5fa450e8871b50f421d",
+      "original_url": "https://raw.githubusercontent.com/DrKLO/Telegram/00a9454aeaa5970884e13abc4ec6c42a125742d0/TMessagesProj/jni/rlottie/src/vector/vmatrix.cpp",
+      "distribution_sha256": "082de6ab31d342199ff389206c7e999ea2d90691beca29dc1ba609c587bde2ec",
+      "changes": [
+        "license: LGPL-2.1 section 3 conversion to GPLv3"
+      ]
+    },
+    {
+      "path": "vendor/rlottie/src/vector/vmatrix.h",
+      "original_git_blob": "f762343300ae082c3d5f0657d332a43a611fd5d1",
+      "original_sha256": "cbd8f7f823d88fdd60ccda09b2d334eefb8d21156fb06b1b6ac1c39b47cb06a1",
+      "original_url": "https://raw.githubusercontent.com/DrKLO/Telegram/00a9454aeaa5970884e13abc4ec6c42a125742d0/TMessagesProj/jni/rlottie/src/vector/vmatrix.h",
+      "distribution_sha256": "9e5b032c4e0545d2eb5d785a297bbe4135f57f4b99de4a5d66a88a45559287ec",
+      "changes": [
+        "license: LGPL-2.1 section 3 conversion to GPLv3"
+      ]
+    },
+    {
+      "path": "vendor/rlottie/src/vector/vpainter.cpp",
+      "original_git_blob": "365adcdb3ec131b2f627031e0d4ba5aa8cb662ac",
+      "original_sha256": "1df78b2db75bee0d670f8adb9e667f20ae0ba61fa4b763ffb67718f1f068fb5d",
+      "original_url": "https://raw.githubusercontent.com/DrKLO/Telegram/00a9454aeaa5970884e13abc4ec6c42a125742d0/TMessagesProj/jni/rlottie/src/vector/vpainter.cpp",
+      "distribution_sha256": "4f03dc377defeea8f7a690e25de7a4ac77e2862edd3b27982d83f0491094ee12",
+      "changes": [
+        "license: LGPL-2.1 section 3 conversion to GPLv3"
+      ]
+    },
+    {
+      "path": "vendor/rlottie/src/vector/vpainter.h",
+      "original_git_blob": "2aaf9992567a33579e9f4d510d2994b3f525cb98",
+      "original_sha256": "c67bdcf9e7d13b49700883b04150761d5cd40f861f6f8a34a1e37211819649f7",
+      "original_url": "https://raw.githubusercontent.com/DrKLO/Telegram/00a9454aeaa5970884e13abc4ec6c42a125742d0/TMessagesProj/jni/rlottie/src/vector/vpainter.h",
+      "distribution_sha256": "5b6e6331c11a90c75faa406dcda64d99ab4d0bca6b4cfc84ec0e0d7703f718be",
+      "changes": [
+        "license: LGPL-2.1 section 3 conversion to GPLv3"
+      ]
+    },
+    {
+      "path": "vendor/rlottie/src/vector/vpath.cpp",
+      "original_git_blob": "a82cbdf2cd9c359004a4e88b4463e90b0f02644d",
+      "original_sha256": "9841a3281ba511483444570f9d2e17db12ea104eac2c02fbeacf30eb796ce8ed",
+      "original_url": "https://raw.githubusercontent.com/DrKLO/Telegram/00a9454aeaa5970884e13abc4ec6c42a125742d0/TMessagesProj/jni/rlottie/src/vector/vpath.cpp",
+      "distribution_sha256": "bc141caeeda90c9738e1261abf31f9f3bbafaedbb6219437e3c3b2bcd32473d8",
+      "changes": [
+        "license: LGPL-2.1 section 3 conversion to GPLv3"
+      ]
+    },
+    {
+      "path": "vendor/rlottie/src/vector/vpath.h",
+      "original_git_blob": "1c4bf0b781145659d996530d8dd1c7320cbe2b66",
+      "original_sha256": "41559a662d68b044bd6eff84cad603ce065354a7a48b2ec49e9a2dbde5ed2de7",
+      "original_url": "https://raw.githubusercontent.com/DrKLO/Telegram/00a9454aeaa5970884e13abc4ec6c42a125742d0/TMessagesProj/jni/rlottie/src/vector/vpath.h",
+      "distribution_sha256": "af5ccd3b20ac4f790f863769eee4585e1ca4dadcbfe34348bda8d520c62c1d17",
+      "changes": [
+        "license: LGPL-2.1 section 3 conversion to GPLv3"
+      ]
+    },
+    {
+      "path": "vendor/rlottie/src/vector/vpathmesure.cpp",
+      "original_git_blob": "f0f305b075a7ff4820338c486ab93c907321d19b",
+      "original_sha256": "5bc79e919842b025d94d276f5e08fb9874eb58ac79d265de26c955156e49d796",
+      "original_url": "https://raw.githubusercontent.com/DrKLO/Telegram/00a9454aeaa5970884e13abc4ec6c42a125742d0/TMessagesProj/jni/rlottie/src/vector/vpathmesure.cpp",
+      "distribution_sha256": "763bc65fb91f272158293e2eb6aff0dbd4310fdb379dee9e60292c9eba21a1ad",
+      "changes": [
+        "license: LGPL-2.1 section 3 conversion to GPLv3"
+      ]
+    },
+    {
+      "path": "vendor/rlottie/src/vector/vpathmesure.h",
+      "original_git_blob": "de3e82405226a381080cbd263ae5db11b24d540f",
+      "original_sha256": "6583f1d00ef3b622a921702133a49789c344442f97ff630d6ef7ae7deb8159cc",
+      "original_url": "https://raw.githubusercontent.com/DrKLO/Telegram/00a9454aeaa5970884e13abc4ec6c42a125742d0/TMessagesProj/jni/rlottie/src/vector/vpathmesure.h",
+      "distribution_sha256": "f2f42f1649621bfbf998f3a2535475c337d364a2e352e4d0edcf8be509c465b1",
+      "changes": [
+        "license: LGPL-2.1 section 3 conversion to GPLv3"
+      ]
+    },
+    {
+      "path": "vendor/rlottie/src/vector/vpoint.h",
+      "original_git_blob": "1a84cb17cb539d3bb3fce25c1a2ce101fe7b523a",
+      "original_sha256": "6c403d6d729842ade74e8d6ef7cd6b81b1b6967c7ac53948b5466689f6269573",
+      "original_url": "https://raw.githubusercontent.com/DrKLO/Telegram/00a9454aeaa5970884e13abc4ec6c42a125742d0/TMessagesProj/jni/rlottie/src/vector/vpoint.h",
+      "distribution_sha256": "618853db508bf97d7cfd7fb565bdb9639e5759f4d5c297cffed21afbe7ccdb1a",
+      "changes": [
+        "license: LGPL-2.1 section 3 conversion to GPLv3"
+      ]
+    },
+    {
+      "path": "vendor/rlottie/src/vector/vraster.cpp",
+      "original_git_blob": "3e78779666c5c1dff13a6d7200bb5f08bdb255bb",
+      "original_sha256": "e56eeb15e921caf1598d40fef9e4884964007b2243f417306b431d9dbeafde1b",
+      "original_url": "https://raw.githubusercontent.com/DrKLO/Telegram/00a9454aeaa5970884e13abc4ec6c42a125742d0/TMessagesProj/jni/rlottie/src/vector/vraster.cpp",
+      "distribution_sha256": "e766417d8bc2a6e35873f617f42ae0bef3e1dde513889d9f6ba97f418e9c7d14",
+      "changes": [
+        "integration: remove unused tgnet/FileLog.h include",
+        "license: LGPL-2.1 section 3 conversion to GPLv3"
+      ]
+    },
+    {
+      "path": "vendor/rlottie/src/vector/vraster.h",
+      "original_git_blob": "987f9ad2bf2bee71ebb24438f06048e7c29d110a",
+      "original_sha256": "accafa7602379450e888266909a231275e5363554118da03252a754806ed6012",
+      "original_url": "https://raw.githubusercontent.com/DrKLO/Telegram/00a9454aeaa5970884e13abc4ec6c42a125742d0/TMessagesProj/jni/rlottie/src/vector/vraster.h",
+      "distribution_sha256": "282ddd19db15d4810c1360d5f9e17f3a6a922d9bc5d4f9d753c2def661d5b8b3",
+      "changes": [
+        "license: LGPL-2.1 section 3 conversion to GPLv3"
+      ]
+    },
+    {
+      "path": "vendor/rlottie/src/vector/vrect.cpp",
+      "original_git_blob": "bc5b008735ffee952a47da51963b7dc8cbd34e9f",
+      "original_sha256": "4547285d0325f9d528cbc69e232cf691c5c17551f0c7508a7fa560b82fa5fb4d",
+      "original_url": "https://raw.githubusercontent.com/DrKLO/Telegram/00a9454aeaa5970884e13abc4ec6c42a125742d0/TMessagesProj/jni/rlottie/src/vector/vrect.cpp",
+      "distribution_sha256": "bb8b843d3d82244410e4c3478b406ea128e3c47d35263486565602be7f34bdc5",
+      "changes": [
+        "license: LGPL-2.1 section 3 conversion to GPLv3"
+      ]
+    },
+    {
+      "path": "vendor/rlottie/src/vector/vrect.h",
+      "original_git_blob": "494579bceaa18970b3d1aaf5821d8f58a8e7d194",
+      "original_sha256": "087fc2e2f706075f1b8fe4eaef6778c26d859539bb3886759ecc3c2ee41d6847",
+      "original_url": "https://raw.githubusercontent.com/DrKLO/Telegram/00a9454aeaa5970884e13abc4ec6c42a125742d0/TMessagesProj/jni/rlottie/src/vector/vrect.h",
+      "distribution_sha256": "b1300817d674eadb15fda87a1b08eaac5d2dce9bd0392b5063ea02057e43b164",
+      "changes": [
+        "license: LGPL-2.1 section 3 conversion to GPLv3"
+      ]
+    },
+    {
+      "path": "vendor/rlottie/src/vector/vrle.cpp",
+      "original_git_blob": "e5731a1bdb2bc70afb9185ed790a44d4ec5d42a8",
+      "original_sha256": "0872a0f607927c8fda874801d2794e167da70293d70e48275435aca8750f70df",
+      "original_url": "https://raw.githubusercontent.com/DrKLO/Telegram/00a9454aeaa5970884e13abc4ec6c42a125742d0/TMessagesProj/jni/rlottie/src/vector/vrle.cpp",
+      "distribution_sha256": "aeb15b86c1ded6b060e031cd0d3c69ccc5a1a3e5d30c7fdbdfe0aee3c761ba76",
+      "changes": [
+        "license: LGPL-2.1 section 3 conversion to GPLv3"
+      ]
+    },
+    {
+      "path": "vendor/rlottie/src/vector/vrle.h",
+      "original_git_blob": "b8d97db3c74eaa5a2a72937c8aa9850466dc5bda",
+      "original_sha256": "817b554f8fb6b38f60e105b34c322f546cdbaa26cd10de26e2b47e06a92bd9f9",
+      "original_url": "https://raw.githubusercontent.com/DrKLO/Telegram/00a9454aeaa5970884e13abc4ec6c42a125742d0/TMessagesProj/jni/rlottie/src/vector/vrle.h",
+      "distribution_sha256": "41fecc5fa92db48fb83f2354d3ccadfb64b4e40e2b0b0638ec640b2a83c7bcf3",
+      "changes": [
+        "license: LGPL-2.1 section 3 conversion to GPLv3"
+      ]
+    },
+    {
+      "path": "vendor/rlottie/src/vector/vstackallocator.h",
+      "original_git_blob": "5989133978aa5c82c5a2454a2bc178fae56c59c1",
+      "original_sha256": "1e80cb94f77376122b2b8e5222cb823232525020c6b9821c6a5290550a6e5b40",
+      "original_url": "https://raw.githubusercontent.com/DrKLO/Telegram/00a9454aeaa5970884e13abc4ec6c42a125742d0/TMessagesProj/jni/rlottie/src/vector/vstackallocator.h",
+      "distribution_sha256": "df6d391ae51628ae2f8b6c28760328d9a166e22bb068b0b64e389b09b5b70e80",
+      "changes": [
+        "license: LGPL-2.1 section 3 conversion to GPLv3"
+      ]
+    },
+    {
+      "path": "vendor/rlottie/src/vector/vtaskqueue.h",
+      "original_git_blob": "62c04360dc854f286e8529dcabde11bd19599182",
+      "original_sha256": "25b19961ef2837cfaa63303f8f0dfbd492a11f83c1ef7327a37b10a5829ac116",
+      "original_url": "https://raw.githubusercontent.com/DrKLO/Telegram/00a9454aeaa5970884e13abc4ec6c42a125742d0/TMessagesProj/jni/rlottie/src/vector/vtaskqueue.h",
+      "distribution_sha256": "82d40f08ec5933bbb3ca751091fbd22842f219306d699d8c956d4d5c220589d1",
+      "changes": [
+        "license: LGPL-2.1 section 3 conversion to GPLv3"
+      ]
+    },
+    {
+      "path": "vendor/rlottie/inc/rlottie.h",
+      "original_git_blob": "d7688aabf549a3d43bdfddc325f36ef2d83ece63",
+      "original_sha256": "459c53187c008c99d4e6cd32fd7c612c34da03d25fb89c748a8832f540d1aeaa",
+      "original_url": "https://raw.githubusercontent.com/DrKLO/Telegram/00a9454aeaa5970884e13abc4ec6c42a125742d0/TMessagesProj/jni/rlottie/inc/rlottie.h",
+      "distribution_sha256": "8c3f8c6f9338c8302dc784b658ddba6f98a5ec3814fd33caa35ae37b285c5fc8",
+      "changes": [
+        "license: LGPL-2.1 section 3 conversion to GPLv3"
+      ]
+    },
+    {
+      "path": "vendor/rlottie/inc/rlottie_capi.h",
+      "original_git_blob": "a5cb70ad50b31f7eaf36dbc9f5682bad680a8234",
+      "original_sha256": "d73d04971cfd65aaa4746b2bccd5a3a6d1fda4d8e7e86107e012c42174e67f51",
+      "original_url": "https://raw.githubusercontent.com/DrKLO/Telegram/00a9454aeaa5970884e13abc4ec6c42a125742d0/TMessagesProj/jni/rlottie/inc/rlottie_capi.h",
+      "distribution_sha256": "4c9468b108cdcd8a576cc3ac7cf18f1e8ab2a59c8e4c633e8ac40dd247bfee93",
+      "changes": [
+        "license: LGPL-2.1 section 3 conversion to GPLv3"
+      ]
+    },
+    {
+      "path": "vendor/rlottie/inc/rlottiecommon.h",
+      "original_git_blob": "b3ac0229e6bf618e16d5fa9a53a50599e376c290",
+      "original_sha256": "8b107a5472b34c5474afaff972eff235bbc0eef33f76ddf269dd40a3f71fdf6e",
+      "original_url": "https://raw.githubusercontent.com/DrKLO/Telegram/00a9454aeaa5970884e13abc4ec6c42a125742d0/TMessagesProj/jni/rlottie/inc/rlottiecommon.h",
+      "distribution_sha256": "27d359b325815458ca71862263557dcd9c5ec54079353dc4365622b7bd38e82b",
+      "changes": [
+        "license: LGPL-2.1 section 3 conversion to GPLv3"
+      ]
+    },
+    {
+      "path": "vendor/rlottie/licenses/COPYING.FTL",
+      "original_git_blob": "5f673ffad132a2c1ccdd306e7d181561ed82ce44",
+      "original_sha256": "e60d07dfb2c5264f9f405fa52bf0d4f85429dd9ae1bc2ffcff8af1924ef720d1",
+      "original_url": "https://raw.githubusercontent.com/DrKLO/Telegram/00a9454aeaa5970884e13abc4ec6c42a125742d0/TMessagesProj/jni/rlottie/licenses/COPYING.FTL",
+      "distribution_sha256": "e60d07dfb2c5264f9f405fa52bf0d4f85429dd9ae1bc2ffcff8af1924ef720d1",
+      "changes": []
+    },
+    {
+      "path": "vendor/rlottie/licenses/COPYING.LGPL",
+      "original_git_blob": "5ab7695ab8cabe0c5c8a814bb0ab1e8066578fbb",
+      "original_sha256": "5df07007198989c622f5d41de8d703e7bef3d0e79d62e24332ee739a452af62a",
+      "original_url": "https://raw.githubusercontent.com/DrKLO/Telegram/00a9454aeaa5970884e13abc4ec6c42a125742d0/TMessagesProj/jni/rlottie/licenses/COPYING.LGPL",
+      "distribution_sha256": "5df07007198989c622f5d41de8d703e7bef3d0e79d62e24332ee739a452af62a",
+      "changes": []
+    },
+    {
+      "path": "vendor/rlottie/licenses/COPYING.PIX",
+      "original_git_blob": "5826f3c735c5239a961b02bea29e39ea492d5377",
+      "original_sha256": "c18a4f313d1642d1d58a5684c0a9eb043029b5a72187cefd058b13068467496b",
+      "original_url": "https://raw.githubusercontent.com/DrKLO/Telegram/00a9454aeaa5970884e13abc4ec6c42a125742d0/TMessagesProj/jni/rlottie/licenses/COPYING.PIX",
+      "distribution_sha256": "c18a4f313d1642d1d58a5684c0a9eb043029b5a72187cefd058b13068467496b",
+      "changes": []
+    },
+    {
+      "path": "vendor/rlottie/licenses/COPYING.RPD",
+      "original_git_blob": "7ccc161c84b243687498a0dae5043c1da6173ac4",
+      "original_sha256": "a140e5d46fe734a1c78f1a3c3ef207871dd75648be71fdda8e309b23ab8b1f32",
+      "original_url": "https://raw.githubusercontent.com/DrKLO/Telegram/00a9454aeaa5970884e13abc4ec6c42a125742d0/TMessagesProj/jni/rlottie/licenses/COPYING.RPD",
+      "distribution_sha256": "a140e5d46fe734a1c78f1a3c3ef207871dd75648be71fdda8e309b23ab8b1f32",
+      "changes": []
+    },
+    {
+      "path": "vendor/rlottie/licenses/COPYING.STB",
+      "original_git_blob": "1da71ca8db830095ebc493fea7c08a4fb386ef79",
+      "original_sha256": "f4af1b4500330b85966a7919d3fcc10289fb8b4f49de65c59c40f3d832eaabaf",
+      "original_url": "https://raw.githubusercontent.com/DrKLO/Telegram/00a9454aeaa5970884e13abc4ec6c42a125742d0/TMessagesProj/jni/rlottie/licenses/COPYING.STB",
+      "distribution_sha256": "f4af1b4500330b85966a7919d3fcc10289fb8b4f49de65c59c40f3d832eaabaf",
+      "changes": []
+    }
+  ]
+}
